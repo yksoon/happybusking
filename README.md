@@ -66,8 +66,8 @@ firebase를 이용하여 사용자에게 push알림 서비스
 
 ![전자계약서](https://user-images.githubusercontent.com/62881936/112794285-98a4be80-90a1-11eb-8e7e-79a30defd52b.jpg)  
 <b>(PDF 다운로드 가능)</b>
-<br/>
-
+<br />
+<br />
 ```
 $.ajax({
     type: "GET",
