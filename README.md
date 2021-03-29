@@ -5,6 +5,7 @@
 사용 라이브러리: Cordova, jQuery mobile,  
 사용 API: google firebase, kakaomap, jsPDF, html2canvas  
 사용 DB: MariaDB  
+작업인원: 4명 (본인이 맡은 역할 - 기획, 개발)  
 <br/>
 
 ---
