@@ -68,7 +68,7 @@ firebase를 이용하여 사용자에게 push알림 서비스
 <b>(PDF 다운로드 가능)</b>
 <br />
 <br />
-```
+```{.javascript}
 $.ajax({
     type: "GET",
     cache: false,
