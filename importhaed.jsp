@@ -436,5 +436,5 @@
         <script type="text/javascript" src="/js/heartpay/detail_store/detail_store.js?ver=1.3.9"></script>
         <%-- 모바일메뉴얼 와꾸 --%>
         <link type="text/css" rel="stylesheet" href="/css/manual/manual_m.css?ver=1.0.0" />
-        <script type="text/javascript" src="/js/manual/manual_m.js?ver=1.0.1"></script>
+        <script type="text/javascript" src="/js/manual/manual_m.js?ver=1.0.3"></script>
 	</head> 		
