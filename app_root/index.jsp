@@ -50,16 +50,14 @@ if (host.indexOf("www")== -1) {
 		</header>
 		 <!-- 이미지 자세히보기 팝업 -->
 		<div id="manual_popup">
-            <div id="manual_content">
-                <div id="manual_pfsc_ing_body">
-                    <ul id="manual_pfsc_ing_ul">
-                    </ul>
-                </div>
-                <%-- <div id="manual_img_selecter_div">
-                    <ul id="manual_img_selecter">
-                    </ul>
-                </div> --%>
-            </div>        
+            <div id="manual_pfsc_ing_body">
+                <ul id="manual_pfsc_ing_ul">
+                </ul>
+            </div>
+            <%-- <div id="manual_img_selecter_div">
+                <ul id="manual_img_selecter">
+                </ul>
+            </div> --%> 
 		</div>
 		<div data-role="content" id="index_content">
 			<nav class="ic-perform-container">

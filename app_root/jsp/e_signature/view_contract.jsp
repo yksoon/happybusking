@@ -3,7 +3,6 @@
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
         <meta charset="UTF-8">
         <%@include file="/importhaed.jsp" %>
-            <%@include file="/importhead2.jsp" %>
                 <%-- page 부분 --%>
                     <div data-role="page" id="view_contract">
                         <!-- header 부분 -->
