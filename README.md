@@ -38,6 +38,33 @@ ajax 를 이용한 java 백엔드 서버와 통신.
 윈도우 서버에서 작업을 하여 스케줄러를 이용한 자동 SQL  
 firebase를 이용하여 사용자에게 push알림 서비스  
 
+## 실제 앱 구동 모습
+1. 메인  
+
+![메인](https://user-images.githubusercontent.com/62881936/112794294-9b071880-90a1-11eb-89b8-d2c28b0db4ea.jpg)
+
+2. 카페&버스킹존  
+
+![카페_버스킹존](https://user-images.githubusercontent.com/62881936/112794293-9a6e8200-90a1-11eb-9b4a-96612676a443.jpg)  
+
+3. 공연등록  
+
+![공연모집등록](https://user-images.githubusercontent.com/62881936/112794292-9a6e8200-90a1-11eb-9174-7ab721abe059.jpg)
+
+4. 계약이력  
+
+![공연신청이력](https://user-images.githubusercontent.com/62881936/112794291-99d5eb80-90a1-11eb-89a1-fafa74c338e9.jpg)
+
+5. 공연상세  
+
+![공연상세](https://user-images.githubusercontent.com/62881936/112794290-99d5eb80-90a1-11eb-9b37-26dbd312c16b.jpg)
+
+6. 전자계약서  
+
+![전자계약서](https://user-images.githubusercontent.com/62881936/112794285-98a4be80-90a1-11eb-8e7e-79a30defd52b.jpg)  
+<b>(PDF 다운로드 가능)</b>
+
+
 ## 프로젝트 개선사항
 Firebase Storage 에서 사진 업로드 및 다운로드를 하다보니 이에 따른 딜레이 현상 발생.  
 Native로 개발된 앱이 아니다보니 전반적인 성능을 모바일 OS 의 WebView에 의존. 퍼포먼스적으로 불리함.  
