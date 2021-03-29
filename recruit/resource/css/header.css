@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+.header{
+    position: sticky !important;
+    position: -webkit-sticky !important; /* Safari */
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;	
+}
+
+.header-top {
+    justify-content: space-between;
+   /* padding: 20px; */
+   padding: 15px 20px 15px 20px;
+ 
+}
+
+.hleft{
+	width: 10%;
+	text-align: left;
+	/* margin-top: 5px; */
+	cursor: pointer;
+}
+
+.hleft img {
+    width: 20px;
+}
+
+.hright{
+	width: 10%;
+	text-align: right;
+	/* margin-top: 5px; */
+	cursor: pointer;
+}
+
+.hright img {
+    width: 15px;
+}
+
+.logo > img{
+	width: 68px !important;
+}
+
+.myicon > img{
+	width: 28px !important;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.menu p {
+    font-size: 16px;
+    color: #999999;
+    padding-bottom:10px;
+	height:24px;
+	padding-top:13px;
+}
+
+.on {
+    border-bottom: 3px solid #8354C8;
+}
+
+.on p{
+	color: #8354C8;
+	font-weight: 700;
+	height: 24px;
+}
+
+.u-header{
+	padding: 20px;
+}
+
+.go-reg-btn{
+	justify-content: center;
+	cursor: pointer;
+}
+
+.go-reg-btn > img{
+	width: 22px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.go-reg-btn > p{
+	margin-left: 5px;
+}
+
+/* .go-recruit-info{
+	margin-bottom: 12px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+} */

@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+#area_select_popup{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    overflow: scroll;
+    display: none;
+    border: none !important;
+}
+
+/* 지역선택 팝업 헤더 */
+.as_header{
+	min-height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ffffff;
+	padding-top: env(safe-area-inset-top);
+    padding-top: constant(safe-area-inset-top);
+}
+
+.as_header_left{
+	width: 25% !important;
+	text-align: left;
+}
+
+.as_header_center{
+	width: 50% !important;
+	text-align: center;
+}
+
+/* 지역선택 팝업 바디 */
+.as_body{
+	padding-top: 85px;
+	padding-bottom: 60px;
+	background-color: #f6f6f6;
+	padding-top: calc(55px + env(safe-area-inset-top));
+    padding-top: calc(55px + constant(safe-area-inset-top));
+}
+
+/* .asb_group{
+	display: none;
+} */
+
+.asb_first_container {
+    padding: 30px 15px 15px 15px;
+    background-color: #ffffff;
+}
+
+.asb_first_main_title {
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.asb_second_container{
+	padding: 15px;
+	display: none;
+}
+
+.asb_second_main_title {
+    text-align: left;
+    font-size: 16px;
+    color: #9053c6;
+    font-weight: 700;
+}
+
+.asb_sub_title {
+    text-align: left;
+    font-size: 11px;
+    color: #898989;
+    padding-top: 5px;
+}
+
+.asb_list {
+    padding: 5px 0px;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+
+.asb_item {
+	display: inline-block;
+    min-width: 35px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+}
+
+.asb_item_all{
+	display: inline-block;
+    min-width: 35px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+}
+
+.asb_item_on {
+    background-image: linear-gradient(to left, #8354c8 0%, #c750bf 100%);
+    color: #ffffff !important;
+    border: 1px solid;
+}

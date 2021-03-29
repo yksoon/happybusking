@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+.index_wapper {
+    background-image: url(/img/homepage/common/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index p{
+	letter-spacing: -1.56px;
+}
+
+.itext_a{
+	opacity: 0.22;
+}
+
+.ibtn {
+    width: 172px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFFFFF1A;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    margin-top: 42px;
+    text-align: center;
+    cursor: pointer;
+}

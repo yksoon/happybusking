@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+*:hover{
+	cursor: default;
+}
+
+table{
+	border-spacing: 0;
+}
+
+.admin_page_menu{
+	width: 100%;
+	text-align: center;
+	padding: 1%;
+}
+
+.apm_list {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.apm_list img {
+    width: 28px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    display: none;
+}
+
+.apm_list:hover{
+	cursor: pointer;
+}
+
+.admin_page_container{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 55px;
+}
+
+.bg_whiteblue{
+	background-color: #d7f3f7;
+}
+
+
+.admin_page_footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #9C27B0;
+    display: none;
+}
+
+.apf_block {
+    margin-left: 20px;
+    color: #ffffff;
+    display: inline-block; 
+}

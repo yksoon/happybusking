@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="그룹_1320" data-name="그룹 1320" transform="translate(-340 -1043)">
+    <rect id="사각형_767" data-name="사각형 767" width="66" height="66" transform="translate(340 1043)" fill="none"/>
+    <g id="그룹_1311" data-name="그룹 1311" transform="translate(-147 0.505)">
+      <path id="패스_637" data-name="패스 637" d="M10,0H30L40,10H0Z" transform="translate(500 1088.465)" fill="#fff" stroke="#2b3146" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+      <path id="패스_608" data-name="패스 608" d="M16.509,0c9.117,0,16.509,6.721,16.509,16.1,0,4.433-3.691,10.865-7.793,15.726-.647.767-1.339,1.549-2.206,2.494-.539.589-1.252,1.34-1.932,2.038-2.509,2.577-4.578,4.379-4.578,4.379S0,25.47,0,16.1,7.391,0,16.509,0Z" transform="translate(503.794 1052.495)" fill="#9f5df8" stroke="#2b3146" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+      <path id="패스_627" data-name="패스 627" d="M6.086,0A6.086,6.086,0,1,1,0,6.086,6.086,6.086,0,0,1,6.086,0Z" transform="translate(514.079 1061.256)" fill="#fff" stroke="#2b3146" stroke-linecap="round" stroke-width="2.2"/>
+    </g>
+  </g>
+</svg>

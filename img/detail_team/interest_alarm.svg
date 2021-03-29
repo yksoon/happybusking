@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="레이어_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<title></title>
+<desc></desc>
+<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="8" cy="8.122" r="5.61"/>
+<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="8,4.506 8,8.228 5.886,10.342 "/>
+<g>
+	<path fill="#FFFFFF" d="M4.916,2.44c-0.396-0.592-1.055-0.995-1.82-1.024c-1.268-0.048-2.335,0.942-2.383,2.21
+		c-0.03,0.805,0.359,1.527,0.971,1.961C2.291,4.142,3.461,3.002,4.916,2.44z"/>
+</g>
+<g>
+	<path fill="#FFFFFF" d="M11.024,2.44c0.396-0.592,1.056-0.995,1.819-1.024c1.269-0.048,2.336,0.942,2.383,2.21
+		c0.031,0.805-0.358,1.527-0.971,1.961C13.649,4.142,12.479,3.002,11.024,2.44z"/>
+</g>
+<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="4.495" y1="12.503" x2="3.417" y2="14.417"/>
+<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="11.461" y1="12.503" x2="12.539" y2="14.417"/>
+</svg>

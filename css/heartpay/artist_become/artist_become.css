@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+
+#artist_become #artist_img, #artist_update #artist_img{
+	display: none;
+}
+
+/* SNS 추가 부분 */
+.abc_sns_list, .auc_sns_list{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.abc_sns_list input{
+	width: 95% !important;
+}
+
+.abc_sns_list .abc_sns_del_btn, .auc_sns_list .auc_sns_del_btn{
+	display: block;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50px;
+    top: 0px;
+    right: 15px;
+    padding: 1px;
+    box-shadow: 1px 2px 4px 0px #b1b1b1;
+}
+
+#abc_sns_add_btn, #auc_sns_add_btn{
+	background-color: #8354c8;
+	color: #ffffff;
+	padding: 13px 0px;
+	font-size: 14px;
+	position: relative;
+	margin: 10px;
+	margin-bottom: 40px;
+}
+
+#abc_sns_add_btn img, #auc_sns_add_btn img{
+	position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+
+/* 아티스트 되기쪽 페이지 -> 완료 후 설명 팝업 */
+#artist_becomePopup-popup{
+	position: fixed !important;
+	top: 50px !important;
+}
+
+#artist_becomePopup{
+	width: 300px;
+	border: 0px;
+	border-radius: 0px;
+	color: black !important;
+	text-align: center;
+}
+
+#artist_become .ui-popup-screen.in{
+	opacity: .8;
+}
+
+#artist_becomePopup .artist_becomePopupTitle{
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #333;
+}
+
+#artist_becomePopup .artist_becomePopupExplain{
+	font-size: 14px;
+	color: #888;
+}
+
+#artist_becomePopup .artist_becomePopupExplain2{
+}
+
+#artist_becomePopup #artist_becomePopup_body{
+    background-color: #fff;
+}
+
+#artist_becomePopup_body .ui-block-a{
+	width: 35%;
+    padding: 15px 15px 15px 15px;
+    text-align: right;	
+}
+
+#artist_becomePopup_body .ui-block-a img{
+	display: inline-block;
+    width: 75%;
+    margin-right: -15px;
+}
+
+#artist_becomePopup_body .ui-block-b{
+	width: 65%;
+    font-size: 16px;
+    text-align: left;;
+    padding-top: 25px;
+  	
+}
+
+#artist_becomePopup_body .ui-block-b p{
+	padding-top: 23px;
+	font-size: 15px;
+	color: #333;
+}
+
+
+#artist_becomePopup #artist_becomePopup_footer{
+	line-height: 3.8;
+	color: #fff;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#artist_becomePopup_footer #artist_becomePopup_request_btn{
+    width: 50% !important;
+    background-color: #8354c8;
+}
+
+#artist_becomePopup_footer #artist_becomePopup_solo_btn{
+	width: 50% !important;
+	background-color: #333;
+} 
+
+#artist_becomePopup_footer #artist_becomePopup_skip_btn{
+	width: 100% !important;
+	
+}
+
+#artist_becomePopup #artist_becomePopup_skip_btn{
+	font-size: 15px;
+	text-decoration: underline;
+	margin-bottom: 40px;
+	color: #888;
+	font-weight: bold;
+}

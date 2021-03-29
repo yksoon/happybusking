@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+/* 후원 내역 조회 페이지 헤더부분 CSS */
+#support_list_page .spt_list_top {
+    background-color: #8354c8;
+    padding: 30px 15px 15px 15px;
+}
+
+#support_list_page .spt_lt_price_div {
+    color: #ffffff;
+    line-height: 45px;
+}
+
+#support_list_page .spt_lt_price_title {
+    text-align: left;
+    font-size: 13px;
+    position: relative;
+    padding-left: 23px;
+}
+
+#support_list_page .spt_lt_price_title img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 3px;
+    bottom: 14px;
+}
+
+#support_list_page .spt_lt_price_won {
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    position: relative;
+}
+
+#support_list_page .spt_lt_price_won span {
+    font-size: 27px;
+    margin-right: 10px;
+    position: absolute;
+    right: 5%;
+    letter-spacing: -1px;
+}
+
+#support_list_page .spt_lt_search_title {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 15px 0px 5px 0px;
+}
+
+/* 후원 내역 조회 페이지 기간 선택 부분 CSS */
+#support_list_page .spt_lt_search_div {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#support_list_page .spt_lt_search_btn {
+    width: 27% !important;
+    padding: 12px 0px;
+    color: #ffffff;
+    background-color: #ffffff24;
+    border: 1px solid #8354c8;
+}
+
+#support_list_page .spt_lt_search_select {
+    border: 1px solid #ffffff !important;
+}
+
+#support_list_page .spt_lt_search_btn:first-child {
+    margin-right: 3%;
+}
+
+#support_list_page .spt_lt_search_btn:last-child {
+    margin-left: 3%;
+    width: 40% !important;
+    padding: 11px 0px !important;
+    background-image: url(/img/common/showing_btn2.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 15px;
+}
+
+#support_list_page .ui-select {
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 15px;
+}
+
+#support_list_page #spt_lt_search_date-button {
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+#support_list_page #spt_lt_search_date-button:after{
+	display: none;
+}
+
+#support_list_page #spt_lt_search_date{
+	border: none;
+}
+
+#support_list_page .spt_list_middel {
+    padding: 30px 15px 5px 15px;
+    border-bottom: 10px solid #eee;
+}
+
+#support_list_page .spt_lm_left {
+    font-size: 15px;
+}
+
+#support_list_page .spt_lm_right {
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: underline;
+    padding-top: 3px;
+	color:#888;
+}
+
+/* 후원 내역 조회 리스트부분 */
+#support_list_page .spt_lb_content {
+    padding: 17px 15px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+
+#support_list_page .spt_lb_teamname {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 2px;
+}
+
+#support_list_page .spt_lb_price_block {
+    text-align: right;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+
+#support_list_page .spt_lb_price_block img {
+    width: 13px;
+    height: 13px;
+    top: 1px;
+    position: relative;
+}
+
+#support_list_page .spt_lb_price {
+    font-size: 20px;
+	padding-left:5px;
+}
+
+#support_list_page .spt_lb_date {
+    text-align: left;
+    font-size: 11px;
+    color: #888;
+    letter-spacing: -0.5px;
+    padding-top: 5px;
+}
+
+#support_list_page .spt_lb_state {
+    text-align: right;
+    font-size: 11px;
+    color: #888;
+    letter-spacing: -0.5px;
+    padding-top: 5px;
+}
+
+/* 후원 내역 조회 페이지 리스트 상세 팝업 부분 CSS */
+#support_list_page #support_list_popup-popup {
+    width: 300px;
+    position: fixed !important;
+}
+
+#support_list_page #support_list_popup{
+	border-radius: 0px;
+}
+
+#support_list_page .spt_lp_header {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#support_list_page .spt_lp_body_top {
+    padding: 25px 15px;
+    line-height: 2;
+    background-color: #f9f9f9;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+#support_list_page .spt_lp_title {
+    text-align: left;
+    font-size: 13px;
+}
+
+#support_list_page .spt_lp_content {
+    text-align: right;
+    font-size: 13px;
+    color: #000000;
+}
+
+#support_list_page .spt_lp_body_bottom {
+    padding: 15px 15px 50px 15px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #eee;
+}
+
+#support_list_page .spt_lp_price{
+    font-size: 22px;
+}
+
+#support_list_page .spt_lp_text{
+	text-align: right;
+	font-size: 12px;
+	color: #888888;
+}
+
+#support_list_page .spt_lp_footer {
+    padding: 15px;
+}
+
+#support_list_page .spt_lp_btn {
+    text-align: center;
+    background-color: #8354c8;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+}

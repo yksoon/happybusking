@@ -1,0 +1,371 @@
+@CHARSET "UTF-8";
+#metro_popup {
+	display: none;
+}
+
+#team_img_popup{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+#team_img_popup img{
+	max-width: 95vw;
+	max-height: 100vh;
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: transform: translate(-50%, -50%); */
+}
+
+.team_image_view {
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    top: 0;
+    left: 0;
+}
+
+/* 팀정보 소개파트 */
+#team_info{
+	/* background-color: #f6f6f6; */
+}
+
+#team_info #team_middle{
+	background-color: #ffffff;
+}
+
+#team_info #team_info_list{
+	background-color: #ffffff;
+}
+
+#team_info #ti_intro_title{
+	height: 45px;
+	border-bottom: 1px solid #eeeeee;
+	background-color: #ffffff;
+}
+
+#ti_intro_title .ui-block-a{
+	width: 50%;
+	text-align: left;
+	padding: 5% 0 0 15px;
+	font-size:15px;
+	color: #333;
+	font-weight: bold !important;
+}
+
+#ti_intro_title .ui-block-b{
+	width: 50%;
+	text-align: right;
+	font-size: 12px;
+	padding: 5% 15px 0 0;
+	margin-top: 1%;
+	text-decoration: underline;
+	color: #888;
+	display: inline-block;
+}
+
+#team_info #ti_bandIntro{
+	font-size : 14px; 
+	text-align:  left; 
+	padding: 15px; 
+	line-height:1.6;
+	background-color: #ffffff;
+}
+
+/* 팀정보 멤버 파트 */
+#team_info #ti_member_title{
+	height: 25px;
+	border-bottom: 1px solid #eeeeee;
+	text-align: left;
+	padding-left: 15px;
+	font-size:15px;
+	padding-top: 50px;
+	margin-top: 7px;
+	background-color: #ffffff;
+}
+
+#team_info #ti_member_content{
+	padding: 4% 10px 4% 15px; 
+	background-color: #eeeeee; 
+	text-align: left; 
+	color: #545454;
+}
+
+
+#team_info .ti_member_div{
+	width: 50%; 
+	margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#team_info .ti_member_img{
+	width: 55px;
+	height: 55px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+#team_info .ti_member_name{
+	
+	font-size: 14px;
+	color:#333;
+}
+
+#team_info .ti_member_part{
+
+	font-size: 12px; 
+	color: #888;
+	padding-top:4px;
+}
+
+
+
+/* 팀정보 동영상 파트 */
+#team_info #ti_video_title{
+	/* height: 45px; */
+	border-bottom: 1px solid #eeeeee;
+	padding: 50px 0 10px 15px;
+	text-align: left;
+	font-size:15px;
+	background-color: #ffffff;
+}
+
+#team_info #ti_videoPart{
+	padding: 15px; 
+	height: 120px;
+	background-color: #ffffff;
+}
+
+#team_info #ti_videoImg{
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	margin-left: -15px;
+	border-radius: 4px;
+	border: 1px solid #eeeeee;
+}
+
+#team_info #ti_videoImg_div{
+	position: relative; 
+	margin-top: -88px;
+	margin-left: -7px; 
+	width: 100%;
+}
+
+#team_info #ti_videoContent{
+	color: #888;
+	text-align: left;
+	margin-top: 5px;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: normal;
+	line-height: 1.4;
+	/* height: 120px; */
+	height: auto;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+}
+
+
+/* 팀정보 공연일정 파트 */
+#team_info .perform_list{
+	height:auto;
+	/* border-bottom: 1px solid #eeeeee; */
+	padding: 18px 15px;
+	padding-bottom: 12px;
+}
+
+#team_info .pl_image{
+	width: 30% !important;
+	height:140px;
+}
+
+#team_info .pl_image img{
+	height : 100%;
+	border-radius: 0.4em;
+}
+
+#team_info .pl_content_contianer{
+	width: 65% !important;
+	text-align: left;
+	height: 140px;
+}
+
+#team_info .pc_cc_box{
+	margin-left: 20px;
+	height: 100%;
+}
+
+#team_info .perform_ing_btn{  
+	display: inline-block;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    font-size: 9px;
+	background-color:#03A9F4;
+    border: 1px solid #03A9F4;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+#team_info .perform_end_btn{
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    font-size: 9px;
+	background-color:#9e9e9e;
+    border: 1px solid #9e9e9e;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+#team_info .perform_cancle_btn{
+    display: inline-block;
+    color: #9e9e9e;
+    position: relative;
+    top: 0px;
+    font-size: 9px;
+    border: 1px solid #9e9e9e;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+#team_info .pl_cc_box_title{
+	color: #333;
+	font-size: 15px;
+	padding-top: 7px;
+	margin-bottom:10px;
+	width: 100%;
+	overflow: hidden;
+	white-space:normal;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+#team_info .pl_cc_box_text{
+	color: #333333;
+	font-size: 13px;
+	text-decoration: none;
+	overflow: hidden;
+	white-space: normal;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+#team_info .pl_cc_box_detail_content{
+	width: 100%;
+	line-height: 18px;
+	margin-top: 10px;
+	overflow: hidden;
+	white-space:normal;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	font-size: 13px;
+	color: #888888;
+	text-decoration: none;
+}
+
+#team_info .pl_cc_btn{
+	width: 5% !important;
+    display: inline-block;
+    text-align: right;
+    padding-top: 60px;
+}
+
+#team_info .pl_cc_btn img{
+	width: 15px;
+}
+
+
+/* QR스캔 이벤트 당첨 팝업 */
+.team_event_popup{
+	display: none;
+	width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+}
+
+.wep_container {
+    width: 90vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.wep_close{
+	display: inline-block;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 50px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 25px;
+    right: 0;
+    top: -10%;
+    padding-top: 5px;
+}
+
+.wep_close img{
+	width: 15px;
+    height: 15px;
+}
+
+.wepc_title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.wepc_main_image{
+	margin: 15px 0px 5px 0px;
+    width: 80%;
+}
+
+.wepc_content {
+    color: #6d6d6d;
+}
+
+.wepc_input{
+	width: 85%;
+    margin-top: 15px;
+    border: none;
+    background-color: #f6f6f6;
+    height: 40px;
+    font-size: 14px;
+    text-indent: 15px;
+}
+
+.wep_terms_container{
+	padding: 20px 25px 0px 25px !important;
+}
+
+.wep_footer{
+	margin-top: 40px;
+    height: 50px;
+    background-color: #8354c8;
+    line-height: 50px;
+    color: #ffffff;
+}

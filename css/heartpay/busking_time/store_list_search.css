@@ -1,0 +1,194 @@
+#store_list_search {
+    letter-spacing: -0.5px;
+}
+
+#store_list_search .sls_cancel {
+    text-decoration: underline;
+    font: normal normal normal 15px/45px SpoqaHanSans;
+    color: #333333;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+
+#store_list_search .ui-input-text {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 0;
+    border-width: 0;
+    border-style: none;
+}
+#store_list_search .sls_search_bar {
+    width: 96%;
+    height: 35px;
+    background: #F4F4F7 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    font: normal normal normal 14px/35px SpoqaHanSans;
+    padding-left: 9px;
+}
+
+#store_list_search #store_list_search_content {
+    padding: 0px 15px 0px 15px !important;
+}
+
+#store_list_search .sls_result_title_container {
+    height: 55px;
+    text-align: left;
+
+    border-bottom: 1px solid #F2F4F8;
+}
+#store_list_search .sls_result_title_container p {
+    font: normal normal bold 14px/75px SpoqaHanSans;
+    color: #333333;
+}
+
+
+
+
+
+#store_list_search .sl_tab_container {
+    height: 123px;
+    width: 100%;
+
+    margin-top: 0;
+
+    border-bottom: 1px solid #F2F4F8;
+    display: flex;
+}
+
+#store_list_search .sl_tab_container_left {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#store_list_search .sl_tab_container_img {
+    width: 88px;
+    height: 81px;
+    border-radius: 4px;
+}
+#store_list_search .sl_tab_container_right_left {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#store_list_search .sl_tab_container_right {
+    padding: 21px 4px 21px 11px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#store_list_search .sl_tab_title_container {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#store_list_search .sl_recruitment_status {
+    padding: 0px 5px 0px 5px;
+    /* width: 37px; */
+    height: 18px;
+
+    /* border-radius: 1px;
+    background: #8354C8 0% 0% no-repeat padding-box; */
+
+    font: normal normal normal 10px/18px SpoqaHanSans;
+    /* color: #FFFFFF; */
+    text-align: center;
+    float: left;
+
+    border-radius: 50px;
+}
+#store_list_search .sl_store_name {
+    width: 120px;
+    text-align: left;
+    font: normal normal bold 15px/22px SpoqaHanSans;
+    color: #333333;
+
+    padding-left: 3px;
+}
+
+#store_list_search .sl_addr {
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 12px/18px SpoqaHanSans;
+    color: #707070;
+    margin-top: 2px;
+}
+
+#store_list_search .sl_perform_team {
+    height: 18px;
+
+    text-align: left;
+    font: normal normal normal 12px/18px SpoqaHanSans;
+    color: #333333;
+}
+
+#store_list_search .sl_hashtag_container {
+    height: 15px;
+    margin-top: 7px;
+    text-align: left;
+    font: normal normal normal 10px/15px SpoqaHanSans;
+    color: #707070;
+}
+#store_list_search .sl_hashtag {
+    text-align: left;
+    padding-right: 9px;
+}
+
+
+#store_list_search .sl_tab_container_right_right {
+    display: flex;
+    align-items: center;
+    width: 50px; 
+}
+
+#store_list_search .sl_perform_date {
+    font: normal normal bold 15px/22px SpoqaHanSans;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+#store_list_search .sl_perform_time {
+    font: normal normal bold 15px/22px SpoqaHanSans;
+    color: #8E8EAC;
+    letter-spacing: 0;
+}
+
+
+#store_list_search .sls_plz_search {
+    margin-top: 30px;
+    text-align: center;
+}
+#store_list_search .sls_plz_search p {
+    font: normal normal normal 15px/45px SpoqaHanSans;
+    color: #D5D5D5;
+}
+#store_list_search .sls_input_cancel_img {
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+}
+#store_list_search .search_bar {
+    background-color: #F4F4F7;
+    border-radius: 5px;
+    width: 68%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#store_list_search .sls_input_div {
+    text-align: center; 
+    width: 100%;
+}
+#store_list_search .sls_input_cancel_div {
+    display: flex;
+    height: 35px;
+    align-items: center;
+}

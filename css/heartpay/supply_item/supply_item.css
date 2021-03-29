@@ -1,0 +1,567 @@
+@CHARSET "UTF-8";
+
+/* 지원물품 tab부분 css(공통)  */
+/* .supply_item_tab{
+	position: fixed; 
+	width: 100%; 
+	z-index: 1000; 
+	border-bottom: 1px solid #eeeeee;
+	background-color: white;
+	top: 45px;
+	-webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(1000);
+}
+
+.supply_item_tab .ui-grid-b{
+	height:40px;
+}
+.supply_item_tab .ui-block-a{
+	margin-top: 2.5%;
+}
+.supply_item_tab .ui-block-b{
+	margin-top: 2.5%;
+}
+.supply_item_tab .ui-block-c{
+	margin-top: 2.5%;
+}
+
+.item-tab{
+	margin-top: 2.5%;
+}
+
+.item-tab-on{
+	margin-top: 2.5%;
+}
+
+
+.item-tab span{
+	margin: 0; 
+	margin-top: 12px; 
+	padding-bottom: 7px; 
+	font-size: 15px; 
+	color:#707070;
+}
+
+.item-tab-on div{
+	display: inline-block; 
+	border-bottom: 3px solid #c750bf; 
+	height: 28px;
+}
+
+.item-tab-on span{
+	margin: 0; 
+	margin-top: 12px; 
+	padding-bottom: 7px; 
+	color: #c750bf; 
+	font-size: 15px;
+} */
+
+
+/* title부분 */
+#supply_item_list .item_list_title{
+	height: 40px; 
+	border-bottom: 7px solid #eeeeee;
+	
+}
+
+
+#supply_item_list .item_list_title .ui-block-a{
+	width: 50%; 
+	text-align: left;
+	padding: 4% 0 0 15px; font-size:15px;
+	color:#0c0c0c;
+}
+
+#supply_item_list .item_list_title .ui-block-b{
+	width: 50%; 
+	text-align: right; 
+	font-size:12px; 
+	padding: 4% 15px 0 0; margin-top:1%;
+}
+
+
+/* content부분  */
+#supply_item_list .item-list-content{
+	padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#supply_item_list .item-list-content .ui-block-a{
+	width: 30%;
+}
+
+#supply_item_list .item-list-content .ui-block-b{
+	width: 50%;
+	text-align: left;
+	font-size: 14px;
+}
+
+#supply_item_list .item-list-content .ui-block-c{
+	width: 20%;
+}
+
+
+#supply_item_list .item-list-content .ui-block-a img{
+	display: inline-block;
+}
+
+#supply_item_list .item-list-middle1{
+	margin-top: 25px;
+	margin-left: 7px;
+	color:#0c0c0c;
+	font-size:14px;
+}
+
+#supply_item_list .item-list-middle2{
+	margin-top: 10px;
+    margin-left: 7px;
+    color: #707070;
+	font-size:13px;
+}
+
+#supply_item_list .item-list-statusOn{
+    width: 50px;
+    height: 50px;
+    background-color: #8d5cb1;
+    border-radius: 50px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 23px;
+}
+
+#supply_item_list .item-list-statusOn span{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+#supply_item_list .item-list-statusOff{
+    width: 50px;
+    height: 50px;
+    background-color: #959595;
+    border-radius: 50px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+#supply_item_list .item-list-statusOff span{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/* 지원 물품 신청 css  */
+
+#supply_item_request .supply_item_request_header1{
+	padding: 25px 15px 10px 15px;
+	
+}
+
+#supply_item_request .supply_item_request_header2{
+	padding: 25px 15px 10px 15px;
+}
+
+#supply_item_request .supply_item_request_header1 h2{
+	text-align: left;
+    font-size: 15px;
+    color: #0c0c0c;
+    font-family: "Nanum Square", sans-serif;
+}
+
+#supply_item_request .supply_item_request_header2 h2{
+	text-align: left;
+    font-size: 15px;
+    color: #0c0c0c;
+    font-family: "Nanum Square", sans-serif;
+}
+
+#supply_item_request .supply_item_request_title{
+	padding: 20px 15px 5px 15px;
+    text-align: left;
+    font-size: 13px;
+}
+
+#supply_item_request .supply_item_request_content{
+	padding: 0px 15px 0px 15px;
+	height: 40px;
+}
+
+#supply_item_request .supply_item_request_text{
+	font-size: 14px;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+#supply_item_request .ui-body-inherit{
+	color : #e0e0e0;
+}
+
+
+.supply_item_request_content .ui-corner-all{
+	border: none;
+    border-bottom: 1px solid #f3f1f3;
+    margin: 0;
+    height: 40px;
+	border-radius: 0px;
+}
+
+
+/* content부분  */
+#supply_item_request .item-list-content{
+	padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#supply_item_request .item-list-content .ui-block-a{
+	width: 30%;
+}
+
+#supply_item_request .item-list-content .ui-block-b{
+	width: 55%;
+	text-align: left;
+	font-size: 14px;
+}
+
+#supply_item_request .item-list-content .ui-block-c{
+	width: 15%;
+}
+
+
+#supply_item_request .item-list-content .ui-block-a img{
+	display: inline-block;
+}
+
+#supply_item_request .item-list-middle1{
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size:14px;
+}
+
+#supply_item_request .item-list-middle2{
+	margin-top: 10px;
+    margin-left: 15px;
+    width: 100%;
+   /*  color: #a9a9a9; */
+}
+
+#supply_item_request .item-list-middle2 .ui-block-a{
+	width: 30px;
+}
+
+#supply_item_request .item-list-middle2 .ui-block-b{
+	width: 40px;
+}
+
+#supply_item_request .item-list-middle2 .ui-block-c{
+	width: 30px;
+}
+
+
+#supply_item_request .item-list-middle2 .ui-input-text{
+	width: 40px;
+	display: inline-block;
+	color: black;
+}
+
+#supply_item_request .item-list-middle2 .irqCnt_middle1{
+	margin-top: 20px
+}
+
+#supply_item_request .item-list-middle2 .irqCnt_middle2{
+	margin-top: 10px;
+   /*  margin-left: -22px */
+}
+
+#supply_item_request .item-list-middle2 .irqCnt_middle3{
+	margin-top: 20px;
+    margin-left: 7px
+}
+
+#supply_item_request .ui-input-text input{
+	font-size: 14px;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+#supply_item_request #rq_selected_part .ui-input-text input{
+	min-height: 0;
+	line-height: 0;
+	padding: .1em;
+	text-align: center;
+	
+}
+
+/* 지원물품 신청 삭제 버튼  */
+#supply_item_request .irqDeleteBtn{
+	padding: 5px;
+    background: #a5a5a5;
+	color:#ffffff;
+    margin-top: 32px;
+    font-size: 12px;	
+}
+
+/* 지원물품 신청하기 버튼  */
+/* #supply_item_request .common_InsertBtnForm{
+	margin-top: 50px;
+    padding: 15px;
+    background-image: linear-gradient(to left, #8354c8 0%, #c750bf 100%);
+    color: #fff;	
+}
+ */
+
+/* 지원물품 신청 select-box css  */
+
+#supply_item_request #rqSupply-select-box{
+	padding: 5px 15px 0px 15px;
+}
+
+#rq-team-select-button{
+	background-color: white;
+	box-shadow: none;
+	border-radius: 0px;
+	color: #b2b2b2;
+    background: url(/img/common/showing_btn.png) no-repeat 95% 50%;
+    background-size: 4%;
+    -webkit-appearance: none;
+    text-align-last: center;
+    font-size:15px;
+    appearance: none;
+    padding: 10px 0px;
+} 
+
+#rq-item-select-button{
+	background-color: white;
+	box-shadow: none;
+	border-radius: 0px;
+	color: #b2b2b2;
+    background: url(/img/common/showing_btn.png) no-repeat 95% 50%;
+    background-size: 4%;
+    -webkit-appearance: none;
+    text-align-last: center;
+    text-indent: 15px;
+    appearance: none;
+    padding: 10px 0px;
+	font-size:15px;
+} 
+
+#supply_item_request .ui-btn-icon-right:after{
+	display: none !important;
+}
+
+
+
+#supply_item_request #rq_addr_sc_btn{
+	width: 20%;
+    color: #fff;
+    background-color: #8d5cb1;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 10px 0px 0px 5px;
+}
+
+#supply_item_request .supply_item_request_textarea{
+	width: 100%;
+	height: 41px !important;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#supply_item_request .div_division{
+	border-bottom: 7px solid #eeeeee;
+    margin-top: 35px;
+}
+
+
+/* 지원물품 신청현황 css  */
+/* 지원물품 신쳥현황 title */
+#supply_item_state .isTitle{
+	height: 40px; 
+	border-bottom: 1px solid #eeeeee; 
+	
+}
+
+#supply_item_state .isTitle .ui-block-a{
+	width: 50%; 
+	text-align: left; 
+	padding: 5% 0 0 15px; 
+	font-size: 15px; 
+}
+
+#supply_item_state .isTitle .ui-block-b{
+	width: 50%; 
+	text-align: right; 
+	font-size: 12px; 
+	padding: 5% 15px 0 0; 
+	margin-top: 1%;
+}
+
+
+/* 지원물품 신청현황 content  */
+#supply_item_state .itemStateContent{
+	padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+#supply_item_state #IsList_part .ui-block-a{
+	width: 30%;
+}
+
+#supply_item_state #IsList_part .ui-block-b{
+	width: 50%;
+	text-align: left;
+	font-size: 14px;
+}
+
+#supply_item_state #IsList_part .ui-block-c{
+	width: 20%;
+}
+
+
+#supply_item_state #IsList_part .ui-block-a img{
+	display: inline-block;
+}
+
+#supply_item_state #IsList_part .item-list-middle1{
+	margin-top: 15px;
+	margin-left: 15px;
+	color:#0c0c0c;
+}
+
+#supply_item_state #IsList_part .item-list-middle2{
+	margin-top: 5px;
+    margin-left: 15px;
+    color: #707070;
+    font-size: 14px;
+}
+
+#supply_item_state #IsList_part .item-list-middle3{
+	margin-top: 10px;
+    margin-left: 15px;
+    color: #a9a9a9;
+    font-size: 13px;
+}
+
+
+
+#supply_item_state #IsList_part .item-list-middle2 .ui-block-a{
+	width: 30px;
+}
+
+#supply_item_state #IsList_part .item-list-middle2 .ui-block-b{
+	width: 40px;
+}
+
+#supply_item_state #IsList_part .item-list-middle2 .ui-block-c{
+	width: 30px;
+}
+
+
+/* 지원물품 신청현황 상태 표시 */
+#supply_item_state .isWating{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    color: #a5a5a5;
+    margin-top: 37px;
+    font-size: 12px;	
+    width: 45px;
+    float: right;
+}
+#supply_item_state .isIng{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #a985c4;
+    color: #a985c4;
+    margin-top: 32px;
+    font-size: 12px;	
+    width: 45px;
+    float: right;
+}
+
+#supply_item_state .isFinish{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #a985c4;
+    color: white;
+    margin-top: 32px;
+    font-size: 12px;	
+    width: 45px;
+    float: right;
+    background-color: #a985c4;
+}
+
+/* content쪽 날짜 표시  */
+#supply_item_state .ShowIsDate{
+  	font-size: 12px;
+    color: #8b8b8b;
+    float: right;
+}
+
+#supply_item_state .ShowIsTeam{
+	background-color: #eeeeee;
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+#supply_item_state .srqCancel{
+	color: #3277f6;
+    border-bottom: 1px solid #3277f6;
+	font-size:12px;
+}
+
+
+/* 공연 지원 신청쪽 이용약관 부분 */
+#supply_item_request .ui-user-check{
+	padding: 15px 15px 0px 15px;
+    font-size: 14px;
+}
+
+#supply_item_request .ui-user-check .ui-block-a{
+	text-align: left;
+    width: 5% !important;
+}
+
+#supply_item_request .ui-user-check .ui-block-b{
+	width: 70% !important;
+    text-align: left;
+	font-size:13px;
+}
+
+#supply_item_request .ui-user-check .ui-block-c{
+	width: 25% !important;
+    text-align: right;
+	font-size:13px;
+	text-decoration:underline;
+}
+
+
+#supply_item_request #si_req_terms{
+	font-size:14px;
+	color: #000000;
+    width: 100% !important;
+    height: 640px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 15px;
+    background: #fff;
+}
+
+#supply_item_request #si_req_terms_close{
+	position: fixed;
+    right: 0;
+    top: 10px;
+    padding: 15px;
+}

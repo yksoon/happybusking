@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+#pwd_search .pwd_search_header{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px 0px;
+}
+
+
+#pwd_search .pwd_search_title{
+	padding: 20px 0px 5px 0px;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+
+#pwd_search .pwd_search_text{
+	font-size: 14px;
+	letter-spacing: -1px;
+	color: #000;
+	padding-bottom: 0;
+}
+
+
+#pwd_search .pwd_search_content .ui-corner-all{
+	border: none;
+    border-bottom: 1px solid #f3f1f3;
+    margin: 0;
+    height: 35px;
+	border-radius: 0px;
+}
+
+#new_pwd #new_pwd_chk{
+	font-size: 12px;
+    text-align: left;
+    padding: 10px 0px;
+}
+/* 비밀번호 찾기 버튼 */
+.pwdSearchBtnForm{
+	/* background-image: linear-gradient(to left, #8354c8 0%, #c750bf 100%); */
+	color: #fff;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	width: auto;
+	text-align: center;
+	border-radius: 5px;
+	font-size:15px;
+	font-weight: bold;
+	margin: 25px 15px 0px 15px;
+	background-color: #8354c8;
+}
+
+
+/* 비밀번호 설정  버튼 */
+#new_pwd .new_pwd_header{
+	font-size: 14px;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+
+#new_pwd .new_pwd_title{
+	padding: 20px 0px 5px 0px;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+
+#new_pwd .new_pwd_text{
+	font-size: 14px;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+
+#new_pwd .new_pwd_content .ui-corner-all{
+	border: none;
+    border-bottom: 1px solid #f3f1f3;
+    margin: 0;
+    height: 35px;
+	border-radius: 0px;
+}

@@ -1,0 +1,450 @@
+@CHARSET "UTF-8";
+#thanks_people #thanks_people_menu{
+	position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+#thanks_people #option_set_button{
+	border-bottom: 3px solid #c750bf;
+    line-height: 1.5;
+    padding-bottom: 9px !important;
+}
+
+#thanks_people .thanks_people_line{
+	background-color: #eeeeee;
+	height: 10px;
+	margin-top: 41px;
+}
+
+#thanks_people .thanks_people_line2{
+	background-color: #eeeeee;
+	height: 6px;
+}
+
+#as_account_list .as_support_people{
+	padding: 15px;
+    background-color: #fff;
+    line-height: 1.6;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#as_account_list #as_support_price{
+	display: inline-block;
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+    margin-right: 3px;
+}
+
+#as_account_list #as_support_won{
+	display: inline-block;
+    font-size: 14px;
+}
+
+#as_account_list #as_support_date{
+	text-align: right;
+    font-size: 10px;
+    padding-top: 8px;
+    color: #888;
+}
+
+#as_account_list #as_support_name{
+	display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+	color:#888;
+}
+
+#as_account_list #as_support_msg{
+	display: inline-block;
+    font-size: 12px;
+    width: 88%;
+}
+
+#thanks_people_body #as_team_refresh_btn{
+	position: fixed;
+    z-index: 9999;
+    top: 75%;
+    right: 3%;
+}
+
+#thanks_people_body #as_team_refresh_btn img{
+	    width: 80%;
+}
+
+/* 후원전체 CSS */
+#thanks_people_body #all_support_team_select{
+	font-size: 13px;
+	margin-top: 41px;
+    padding: 10px 15px;
+    text-align: left;
+    background-color: #eeeeee;
+}
+
+#all_support_team_select #as_team_select{
+	border: none;
+    text-decoration: underline;
+	-webkit-appearance: none; /* 화살표 없애기 for chrome*/
+	-moz-appearance: none;    /* 화살표 없애기 for firefox*/
+	appearance: none;         /* 화살표 없애기 공통*/
+	background-color: #eeeeee;
+	background: url(/img/common/showing_btn.png) no-repeat 100% 50%;
+    display: inline-block !important;
+    background-size: 6%;
+    width: 145px;
+    letter-spacing: -1px;
+}
+
+#as_team_select::-ms-expand {
+   display: none;            /* 화살표 없애기 for IE10, 11*/
+}
+
+#thanks_people_body #as_account_body{
+	background-color: #8354c8;
+	padding: 20px 15px;
+}
+
+#as_account_body #as_account_content{
+	color: #fff;
+    text-align: left;
+    font-size: 18px;
+}
+
+#as_account_body #as_account_team_name{
+	color: #fff !important;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#as_account_body .ui-block-b{
+	text-align: right;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #fff;
+}
+
+#as_account_body #as_account_price_text{
+	color: #fff;
+}
+
+#thanks_people #as_account_middle{
+	height: 45px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#as_account_middle #as_account_middle_title{
+	width: 50%;
+	text-align: left;
+	padding: 5% 0 0 15px;
+	font-size: 15px;
+}
+
+#as_account_middle #as_account_middle_sort{
+	width: 50%;
+	text-align: right;
+	font-size:12px;
+	padding: 5% 15px 0 0;
+	margin-top:1%;
+	text-decoration: underline;
+	color:#707070;
+}
+
+#thanks_people #as_account_list{
+	min-height: 430px;
+	background-color: #fff;
+}
+/* 지급신청 CSS */
+#thanks_people_body #pay_account_body{
+	/* background-image: linear-gradient(to left, #8354c8 0%, #c750bf 100%); */
+	padding: 15px;
+	background-color: #8354c8;
+}
+
+#pay_account_body #pay_account_content{
+	width: 80% !important;
+	color: #fff;
+    text-align: left;
+    line-height: 2;
+}
+
+#pay_account_content #pay_account_title{
+	    width: 100% !important;
+    font-size: 13px;
+}
+
+#pay_account_content #pay_account_subject{
+	    width: 100% !important;
+    font-size: 14px;
+}
+
+#pay_account_body #pay_account_btn{
+	width: 20% !important;
+    text-align: right;
+}
+
+#pay_account_body #pay_account_btn_text{
+	background-color: #fff;
+	line-height: 3.4;
+	border-radius: 50px;
+	width: 48px;
+	display: inline-block;
+	font-size: 14px;
+	color: #8a5dcb;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 0px 3px 5px 0px #65369c;
+	margin-top: 4px;
+}
+
+#thanks_people #pay_apply_body{
+	padding: 33px 15px 15px 15px;
+    margin-bottom: 45px;
+}
+
+#thanks_people #pay_apply_body_title{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#pay_apply_body_content .ui-block-a{
+	width: 95% !important;
+}
+
+#pay_apply_body_content #pay_apply_body_text{
+	width: 97%;
+    font-size: 19px;
+    color: #000;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 3px;
+    padding-right: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+#pay_apply_body_content .ui-block-b{
+	width: 5% !important;
+    padding-top: 11px;
+    text-align: right;
+}
+
+#pay_apply_body #pay_apply_body_footer{
+	font-size: 12px;
+    text-align: right;
+    color: #888;
+    margin-bottom: 25px;
+    padding-top: 2px;
+}
+
+#pay_apply_body #pay_apply_footer{
+	padding-top: 15px;
+	border-top: 1px solid #333;
+}
+
+#pay_apply_footer #pay_apply_footer_title{
+	width: 20% !important;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    padding-top: 4px;
+}
+
+#pay_apply_footer #pay_apply_footer_content{
+	width: 80% !important;
+    text-align: right;
+}
+
+#pay_apply_footer_content #pay_apply_footer_content_a{
+	    display: inline-block;
+    font-size: 12px;
+}
+
+#pay_apply_footer_content #pay_apply_footer_content_b{
+	display: inline-block;
+	font-size: 19px;
+	color: #333;
+	margin-left: 5px;
+}
+
+#pay_apply_footer_content #pay_apply_footer_content_c{
+	display: inline-block;
+	font-size: 19px;
+	color: #333;
+}
+
+#thanks_people_body #pay_precautions_body{
+    background-color: #f8f8f8;
+    padding: 25px 15px;
+    text-align: left;
+    font-size: 12px;
+    color: #9a9a9a;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#pay_precautions_body .ppb_main_title{
+	padding-bottom: 10px;
+}
+
+#pay_precautions_body .ppb_big_content{
+	padding-bottom: 10px;
+}
+
+#pay_precautions_body .ppb_big_content_2{
+	padding-bottom: 3px;
+}
+
+#pay_precautions_body .ppb_small_content{
+    text-indent: 5px;
+    padding-bottom: 1px;
+}
+
+#pay_precautions_body .ui-block-a{
+	background-color: #d2d2d2;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    width: 15px;
+    margin-right: 2px;
+}
+
+/* 지급내역 CSS */
+#thanks_people_body #wd_team_refresh_btn{
+	position: fixed;
+    z-index: 9999;
+    top: 75%;
+    right: 3%;
+}
+
+#thanks_people_body #wd_team_refresh_btn img{
+	width: 80%;
+}
+
+#thanks_people #wd_account_middle{
+	height: 45px;
+	border-bottom: 1px solid #e1e1e1;
+	padding-top: 41px;
+}
+
+#wd_account_middle #wd_account_middle_title{
+	width: 50%;
+	text-align: left;
+	padding: 5% 0 0 15px;
+	font-size: 15px;
+}
+
+#wd_account_middle #wd_account_middle_sort{
+	width: 50%;
+	text-align: right;
+	font-size:12px;
+	padding: 5% 15px 0 0;
+	margin-top:1%;
+	text-decoration: underline;
+	color:#707070;
+}
+
+#thanks_people #wd_account_list{
+	height: 100%;
+	padding-bottom: 15px;
+    background-color: #eeeeee;
+}
+
+#thanks_people .wd_account_list_content{
+    padding: 15px;
+	background-color: #fff;
+	border-top: 10px solid #eeeeee;
+}
+
+.wd_account_list_content #wd_account_price{
+	display: inline-block;
+    font-size: 24px;
+    color: #256ff6;
+}
+
+.wd_account_list_content #wd_account_won{
+	    display: inline-block;
+    font-size: 14px;
+}
+
+.wd_account_list_content #wd_account_date{
+	    font-size: 12px;
+    color: #c1c1c1;
+}
+
+.wd_account_list_content .wd_account_ok{
+	    display: inline-block;
+    font-size: 12px;
+    color: #4a7def;
+    border: 1px solid #4a7def;
+    border-radius: 5px;
+    padding: 4px 5px;
+    margin-top: 15px;
+}
+
+.wd_account_list_content .wd_account_refuse{
+	display: inline-block;
+    font-size: 12px;
+    color: #ff2626;
+    border: 1px solid #ff2626;
+    border-radius: 5px;
+    padding: 4px 5px;
+    margin-top: 15px;
+}
+
+.wd_account_list_content .wd_account_no{
+	    display: inline-block;
+    font-size: 12px;
+    color: #7f7f7f;
+    border: 1px solid #7f7f7f;
+    border-radius: 5px;
+    padding: 4px 5px;
+    margin-top: 15px;
+}
+
+#thanks_people .wd_account_list_detail{
+	    padding: 15px;
+    margin: 10px 15px 0px 15px;
+    background-color: #fff;
+    display: none;
+}
+
+.wd_account_list_detail #wd_al_detail_header{
+	text-align: left;
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+.wd_account_list_detail #wd_al_detail_body{
+	padding-bottom: 20px;
+}
+
+.wd_account_list_detail #wd_al_detail_title{
+	width: 30% !important;
+	text-align: left;
+    font-size: 13px;
+    color: #000;
+}
+
+.wd_account_list_detail #wd_al_detail_content{
+	width: 70% !important;
+	text-align: right;
+    font-size: 13px;
+    color: #676767;
+}
+
+.wd_account_list_detail #wd_al_detail_footer{
+	    text-align: left;
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+.wd_account_list_detail #wd_al_detail_total{
+	display: inline-block;
+    font-size: 18px;
+    color: #367af7;
+}

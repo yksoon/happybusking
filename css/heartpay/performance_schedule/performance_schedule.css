@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+#perform_sc .nav_h_type li{
+	width: auto !important;
+	border-bottom: 1px solid #eeeeee !important;
+	background-color: #ffffff !important; 
+}
+
+#perform_sc .ui-input-text{
+	border-radius: 50px;
+	height: 30px;
+	border: none;
+}
+
+.area_on{
+	font-weight: bold;
+	text-decoration:underline;
+	color: #333 !important;
+}
+
+#perform_sc #pf-schedule-content{
+	width: 100%;
+    line-height: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+    color: #cacaca;
+    text-decoration: none;
+}
+
+/* 공연일정 팀 검색버튼 */
+#perform_sc_search .ui-block-a{
+	width: 7% !important;
+    text-align: left;
+}
+
+#perform_sc_search .ui-block-b{
+	width: 83% !important;
+}
+
+#perform_sc_search .ui-block-c{
+	width: 10% !important;
+	text-align: right;
+}
+
+/* 날짜 잘못선택 방지 마스크 */
+#perform_sc #cal_mask{
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+/* 공연 취소 사유 작성 페이지 */
+#perform_cancle_msg #pf_cancle_title{
+	font-size: 14px;
+    text-align: left;
+    padding: 15px 15px 0px 15px;
+    margin-top: 40px;
+}
+
+#perform_cancle_msg #pf_cancle_body{
+	padding: 0px 15px 15px 15px;
+    font-size: 18px;
+    height: auto;
+}
+
+#perform_cancle_msg #pf_cancle_area{
+	height: 420px !important;
+}
+
+#perform_cancle_msg #pf_cancle_btn{
+	width: 100%;
+}
+
+
+/* 공연 리스트 */
+.ps-contaner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.ps-contaner:first-child {
+    padding-top: 10px !important;
+}
+
+.ps-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.psl-img {
+    width: 87px;
+    height: 108px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.psl-img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 108px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.psl-img img {
+   width: 87px;
+   height: 108px;
+   max-width: 87px;
+   max-height: 108px; 
+   border-radius: 5px;
+}
+
+.psl-text {
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+.psl-text p {
+    text-align: left;
+}
+.psl-title {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.psl-date {
+    font-size: 14px;
+    color: #595959;
+    padding-top: 5px;
+}
+
+.psl-place {
+    font-size: 14px;
+    color: #595959;
+    padding-top: 2px;
+}
+
+.psl-genre {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #a2a2a2;
+    background-color: #F5F5F5;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 3px;
+    height: 12px;
+    line-height: 12px;
+    max-width: 155px;
+}
+
+.ps-right {
+	width: 10%;
+    text-align: right;
+    position: relative;
+}
+
+.ps-right img {
+    width: 15px;
+    height: 21px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    opacity: 0.4;
+}

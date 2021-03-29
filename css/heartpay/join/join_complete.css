@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+#join_complete .jcc_img{
+	width: 15%;
+	padding-top: 10%;
+}
+
+#join_complete .jcc_body_main_text{
+	font-size: 25px;
+    padding-top: 5px;
+}
+
+#join_complete .jcc_body_sub_text{
+	font-weight: 700 !important;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#join_complete .jcc_body_sub_text span{
+	font-weight: 700 !important;
+    font-size: 14px;
+}
+
+#join_complete .jcc_footer_text{
+	font-size: 14px;
+    color: #828282;
+}
+
+#join_complete .jcc_footer_text_first{
+	padding-top: 45%;
+}
+
+#join_complete .jcc_footer_text b{
+	font-weight: 700 !important;
+}
+
+#join_complete .jcc_btn_div{
+	padding: 15% 15px 0px 15px;
+}
+
+#join_complete .jcc_btn{
+    border: 1px solid #8354c8;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+
+#join_complete #jcc_artist_btn{
+	background-color: #8354c8;
+    color: #ffffff;
+}
+#join_complete #jcc_owner_btn {
+    background-color: #8354c8;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+#join_complete #jcc_after_btn{
+	background-color: #ffffff;
+    color: #8354c8;
+    margin-top: 15px;
+}

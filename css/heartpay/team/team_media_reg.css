@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+#team_media_reg #team_media_reg_sec{
+	padding: 15px !important;
+}
+
+#team_media_reg .ui-corner-all{
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	border-radius: 0;
+	width: 95%;
+}
+
+#team_media_reg .tmr_title {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0px;
+}
+
+#team_media_reg #tmr_tselect-button{
+    box-shadow: none;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+
+#team_media_reg #tmr_tselect-button:after{
+	display: none;
+}
+
+
+/* ì‚¬ì§„ ë“±ë¡ë¶€ë¶„ CSS */
+#team_media_reg #tmr_picture_add_btn{
+	background-color: #8354c8;
+	color: #ffffff;
+	padding: 13px 0px;
+	font-size: 14px;
+	border-radius: 4px;
+	position: relative;
+	font-weight: bold;
+}
+
+#team_media_reg #tmr_picture_add_btn img{
+	position: absolute;
+    top: 30%;
+    left: 36%;
+}
+
+#team_media_reg .tmr_picture_container{
+	padding: 15px 0px;
+}
+
+#team_media_reg .tmr_picture_block{
+	width: 23% !important;
+	height: 80px;
+	background-color: #eee;
+	margin-right: 2.6%;
+	margin-top: 10px;
+	position: relative;
+}
+
+#team_media_reg .ui-block-d{
+	margin-right: 0px !important;
+}
+
+#team_media_reg .tmr_picture{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+#team_media_reg .tmr_picture_file{
+	display: none;
+}
+
+#team_media_reg .tmr_picture_block .tmr_picture_del_btn{
+	display: none;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    box-shadow: 1px 2px 4px 0px #b1b1b1;
+    z-index: 2;
+}
+
+
+/* 사진 등록 부분 CSS */
+#team_media_reg #tmr_video_add_btn{
+	background-color: #8354c8;
+	color: #ffffff;
+	padding: 13px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 4px;
+}
+
+#team_media_reg #tmr_video_add_btn img{
+	position: absolute;
+	top: 30%;
+	left: 34%;
+}
+
+#team_media_reg .tmr_video_info {
+    margin: 15px 0px;
+    background-color: #f6f6f6;
+    text-align: left;
+    padding: 10px;
+}
+
+#team_media_reg .tmr_vi_title {
+    font-size: 13px;
+    padding: 10px 0px;
+    color: #333;
+}
+
+#team_media_reg .tmr_vi_content {
+    font-size: 13px;
+    color: #333;
+}
+
+#team_media_reg .tmr_vi_content span {
+    color: #ff0000;
+}
+
+#team_media_reg .tmr_video {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    position: relative;
+    text-align: left;
+}
+
+#team_media_reg .tmr_video_del_btn {
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50px;
+    top: -5px;
+    right: -5px;
+    padding: 1px;
+    box-shadow: 1px 2px 4px 0px #b1b1b1;
+}
+
+#team_media_reg .tmr_video_link{
+	font-size: 14px;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 5px;
+    box-shadow: none;
+    border: none;
+    min-height: 30.8px;
+}
+
+#team_media_reg .tmr_video_content {
+    resize: none;
+    height: 80px;
+    font-size: 14px;
+    width: 95%;
+    padding: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+#team_media_reg 

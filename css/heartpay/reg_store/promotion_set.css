@@ -1,0 +1,308 @@
+@charset "UTF-8"; 
+
+/* 공통 기본설정 */
+#busking_promotion *{
+    letter-spacing:-0.5px;
+}
+
+/* 메인화면 */
+#busking_promotion{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    content: '';
+    background: url("/img/reg_store/promotion_bg1_2x.png") 50% 50%;
+    background-repeat: repeat-x repeat-y;
+    opacity: 1;
+    /* position: absolute;
+    top:0; left:0; right:0; bottom:0; */
+    z-index: 1;
+    box-shadow: inset 0px -90px 102px 3px rgb(0 0 0 / 90%);
+}
+
+/* 메인 서브화면 */
+/* #busking_promotion:before{
+   background-size: cover;
+    content: '';
+    background: url("/img/reg_store/promotion_bg1_2x.png") 50% 50%;
+    background-repeat: repeat-x repeat-y;
+    opacity: 1;
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    z-index: -1;
+
+    blur 효과 구현 
+    -webkit-filter: brightness(0.50);
+    filter: brightness(0.50);
+} */
+#busking_promotion .background_show1{
+    background-size: cover;
+    content: '';
+    background: url("/img/reg_store/promotion_bg1_2x.png") 50% 50%;
+    background-repeat: repeat-x repeat-y;
+    opacity: 1;
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    z-index: 1;
+
+    /* blur 효과 구현 */
+    -webkit-filter: brightness(0.50);
+    filter: brightness(0.50);
+}
+#busking_promotion .background_show2{
+    background-size: cover;
+    content: '';
+    background: url("/img/reg_store/promotion_bg2_2x.png") 50% 50%;
+    background-repeat: repeat-x repeat-y;
+    opacity: 1;
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    z-index: -1;
+
+    /* blur 효과 구현 */
+    -webkit-filter: brightness(0.50);
+    filter: brightness(0.50);
+}
+#busking_promotion .background_show3{
+    background-size: cover;
+    content: '';
+    background: url("/img/reg_store/promotion_bg3_2x.png") 50% 50%;
+    background-repeat: repeat-x repeat-y;
+    opacity: 1;
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    z-index: -1;
+
+    /* blur 효과 구현 */
+    -webkit-filter: brightness(0.50);
+    filter: brightness(0.50);
+}
+
+#busking_promotion .icon_exit_a{
+    margin-left: 90%;
+    margin-top: 7%;
+    width: 16px;
+    height: 16px;
+    opacity: 0.8;
+    color: white;
+    cursor:pointer;
+}
+
+#busking_promotion .ui_promotion_txt1{
+    margin: 30px 15% 30px 15%;
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#busking_promotion #promotion_txt{
+   
+    font-weight: bold;
+    font-family: "SpoqaHanSans";
+    color: #FFFFFF;
+    font: normal normal bold 23px SpoqaHanSans;
+    opacity: 0.7;
+}
+
+#busking_promotion .button_registerStore{
+    margin: 60px 10% 30px 10%;
+    width: 80%;
+    height: 55px;
+    background: #8354C8;
+    color: white;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#busking_promotion .ui_promotion_txt2{
+    margin: 30px 10% 20px 10%;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    opacity: 0.66;
+}
+
+#busking_promotion .caution_txt{
+    font-size: 12px;
+    font-family: "Noto Sans CJK KR";
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* 버스킹존 상세페이지 이미지 슬라이드부분 CSS */
+#busking_promotion #bdc_pfsc_ing_body{
+	overflow: hidden;
+	height: 345px;
+    margin-top: 38px;
+}
+
+#busking_promotion #bdc_pfsc_ing_body ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#busking_promotion #bdc_pfsc_ing_body li{
+    float: left;
+    opacity: 0.5;
+    
+}
+
+/* 버스킹존 상세페이지 이미지 슬라이드 버튼부분 CSS */
+#busking_promotion #buskingzone_detail_content{
+	position: relative;
+}
+
+#busking_promotion #bdc_img_selecter {
+    /* position: absolute;
+    top: 568px;
+    float: left;
+    left: 50%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(-50%, -50%); */
+    position: revert;
+}
+
+#busking_promotion #bdc_img_selecter li {
+	display: inline-block;
+    /* float: left; */
+    font-size: 9px;
+    margin-left: 5px;
+    color: #d4d4d482;
+    border-radius: 5em;
+}
+#busking_promotion .itemslide-active{
+    opacity: 1 !important;
+}
+#busking_promotion #slide_no1{
+    margin-left: 40px;
+}
+#busking_promotion #slide_no2{
+    
+}
+#busking_promotion #slide_no3{
+    /* position: absolute;
+    bottom: -336px;
+    right: 1308px;
+    z-index: 1;
+    height: 336px; */
+}
+#busking_promotion #fake_img{
+    width: 295px;
+    max-width: none;
+    height: 350px;
+    position: absolute;
+    left: -254px;
+    z-index: 1;
+    opacity: 0.5 !important;
+}
+#busking_promotion #slide_no1_fk{
+    display: none;
+}
+
+#busking_promotion .promotion_in_img_text1{
+    position: absolute;
+    bottom: -336px;
+    right: 1081px;
+    z-index: 1;
+    height: 100px;
+    width: 200px;
+    display: block;
+}
+#busking_promotion .promotion_in_img_text2{
+    position: absolute;
+    bottom: -336px;
+    right: 788px;
+    z-index: 1;
+    height: 100px;
+    width: 200px;
+    display: none;
+
+}
+#busking_promotion .promotion_in_img_text3{
+    position: absolute;
+    bottom: -336px;
+    right: 450px;
+    z-index: 1;
+    height: 100px;
+    width: 200px;
+    display: none;
+}
+#busking_promotion .promotion_in_img_text_a{
+    text-align: left;
+    font: normal normal bold 22px SpoqaHanSans;
+    color: #FFFFFF;
+    opacity: 1;
+    float: left;
+}
+#busking_promotion .promotion_in_img_text_b{
+    text-align: left;
+    font: normal normal normal 14px SpoqaHanSans;
+    color: #FFFFFF;
+    opacity: 0.7;
+    float: left;
+}
+#busking_promotion #bdc_img_selecter li:first-child {
+    margin-left: 0px;
+}
+
+#busking_promotion .bdc_img_active{
+	color: #8354c8 !important;
+}
+
+/* 세이프 박스 제거 */
+#busking_promotion .ui-content {
+    margin-bottom: 0 !important;
+}
+#busking_promotion .promotion_close_button{
+    float: right;
+    margin-right: 0px;
+   
+}
+#busking_promotion .close_button_img{
+    padding-right: 17px;
+    padding-top: 10px;
+    width: 28px;
+    padding-left: 3px;
+}
+#busking_promotion .promotion_bt{
+    width: 100%;
+    height: 71px;
+}
+#busking_promotion .promotion_ti{
+    margin-top: 40px;
+    text-align: center;
+}
+#busking_promotion .promotion_footer{
+    width: 80%;
+    height: 100px;
+    text-align: left;
+    font: normal normal normal 14px SpoqaHanSans;
+    color: #FFFFFF;
+    opacity: 0.48;
+    margin-top: 40px;
+    margin-inline: 36.5px;
+}
+#busking_promotion #bdc_img_selecter_div{
+    float: left;
+    width: 100%;
+    /* padding: 50%; */
+    /* padding-inline: 97%; */
+    /* padding-inline: 188px; */
+    padding-left: 95%;
+    margin-top: 19px;
+}

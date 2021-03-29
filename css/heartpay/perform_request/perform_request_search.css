@@ -1,0 +1,404 @@
+@CHARSET "UTF-8";
+/* 공연의뢰 검색페이지 헤더부분 CSS */
+#perform_request_search #prq_search_header {
+    padding: 15px;
+}
+
+#perform_request_search .prq_sh_title_genre {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+#perform_request_search .prq_sh_title_area {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+
+#perform_request_search .prq_sh_title_money {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+#perform_request_search .prq_sh_title_ts {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+
+
+#perform_request_search #prq_search_result_title{
+	padding-left: 15px;
+	padding-bottom: 10px;
+	text-align: left;
+	margin-top: 20px;
+	font-size: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#perform_request_search .prq_sh_tname_input {
+    position: relative;
+    display: none;
+}
+
+#perform_request_search .prq_sh_tname_input img{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 14px;
+}
+
+#perform_request_search #prq_sh_csh_genre{
+	text-align: center;
+}
+
+#perform_request_search input[type="text"]{
+    font-size: 14px;
+    box-shadow: 0px 2px 2px 0px #f1f2f6;
+    color: #333333;
+}
+
+#perform_request_search .ui-input-text{
+	margin-top: 8px;
+}
+
+#perform_request_search #prq_tname {
+    padding: 10px 5px 10px 35px;
+}
+
+#perform_request_search #prq_tmoney {
+    padding: 5px 5px 5px 10px;
+}
+
+#perform_request_search .prq_sh_csh_header {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#perform_request_search .prq_sh_csh_btn{
+	text-align: right;
+}
+
+#perform_request_search .prq_sh_csh_btn img {
+    width: 10px;
+    margin-right: 2px;
+	padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+#perform_request_search .prq_sh_csh_content {
+    margin: 15px 0px;
+}
+
+#perform_request_search #prq_sh_csh_genre-button{
+	text-align: left;
+	background-color: #ffffff;
+	font-size: 14px;
+	box-shadow: 0px 2px 2px 0px #f1f2f6;
+	color: #333333;
+	padding: 7px 5px 7px 15px;
+	font-weight: normal;
+} 
+
+#perform_request_search #prq_sh_csh_genre-button:after {
+    background-color: #8354c8;
+    /* background-image: url(/img/common/showing_btn.svg) !important; */
+    background-repeat: no-repeat;
+    background-size: 10px;
+    /* background-position: 60% 40%; */
+    border-left: 1px solid #d9d9d9;
+    border-radius: 0px;
+    display: block;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 11px;
+    left: 88%;
+}
+
+#perform_request_search #prq_sh_csh_area-button{
+	text-align: left;
+	background-color: #ffffff;
+	font-size: 14px;
+	box-shadow: 0px 2px 2px 0px #f1f2f6;
+	color: #333333;
+	padding: 7px 5px 7px 15px;
+	font-weight: normal;
+	margin-top: 8px;
+}
+
+#perform_request_search #prq_sh_csh_area-button:after {
+     background-color: #8354c8;
+    /* background-image: url(/img/common/showing_btn.svg) !important; */
+    background-repeat: no-repeat;
+    background-size: 10px;
+    /* background-position: 60% 40%; */
+    border-left: 1px solid #d9d9d9;
+    border-radius: 0px;
+    display: block;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 11px;
+    left: 88%;
+	
+}
+
+#perform_request_search .prq_sh_money_div .ui-block-a{
+	width: 45% !important;
+}
+
+#perform_request_search .prq_sh_money_div .ui-block-b{
+	width: 10% !important;
+	margin-top: 15px;
+}
+
+#perform_request_search .prq_sh_money_div .ui-block-c{
+	width: 45% !important;
+}
+
+#perform_request_search .prq_sh_tmoney_info {
+    background-color: #eee;
+    padding: 15px;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    color: #888;
+}
+
+#perform_request_search .prq_sh_ttype_div{
+	text-align: left;
+}
+
+#perform_request_search .ui-checkbox{
+	display: inline-block;
+	margin: 0px;
+}
+
+#perform_request_search .ui-checkbox:last-child{
+	margin-left: 30px;
+}
+
+#perform_request_search .prq_sh_ttype_div label{
+	background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+	font-family:Nanum Sqaure;
+}
+
+#perform_request_search .prq_sh_ttype_div .ui-checkbox-off:after {
+    background-image: url(/img/common/checkbox_uncheck.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+	opacity: 1;
+}
+
+#perform_request_search .prq_sh_ttype_div .ui-checkbox-on:after {
+    background-image: url(/img/common/checkbox_checked.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+#perform_request_search #prq_sh_search_btn{
+	background-color: #8354c8;
+    background-image: none;
+	border-radius: 5px;
+	box-shadow: 0px 4px 2px 0px #c0c1c154;
+	margin-top: 20px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+#perform_request_search .prq_search_title{
+	padding: 40px 15px 10px 15px;
+    text-align: left;
+    font-size: 14px;
+	color:#0c0c0c;
+}
+
+#perform_request_search .prq_search_title2{
+	padding: 25px 15px 10px 15px;
+    text-align: left;
+    font-size: 14px;
+	color:#0c0c0c;
+}
+
+
+#perform_request_search .prq_search_content{
+	padding: 0px 15px 0px 15px;
+	height: 40px;
+}
+
+#perform_request_search .prq_tname_search{
+	font-size: 15px;
+    letter-spacing: -1px;
+    color: #0c0c0c;
+    width: 90%;
+    padding: 10px 0px 10px 25px;
+    border: none;
+    border-bottom: 1px solid #e9e9e9;
+    background: url(/img/artist_ranking/ar_search.svg) no-repeat 1%;
+	border-radius: unset;
+	text-indent:5px;
+	background-size:17px;
+}
+
+#perform_request_search .prq_content{
+	padding: 10px;
+	margin: 15px;
+	padding-left: 0px;
+	margin-top: 13px;
+	height: 70px;
+	border-bottom: 1px solid #eee;
+	/* border: 1px solid #eee; */
+	/* border-radius: 5px; */
+	/* box-shadow: 0px 0px 10px 0px #e9ebec; */
+	background-color: #fff;
+}
+
+#perform_request_search .prq_content_img{
+	width: 28% !important;
+    height: 100%;
+}
+
+#perform_request_search .prq_content_img img{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+#perform_request_search .prq_content_subject{
+	width: 65%;
+	text-align: left;
+	/* padding-left: 15px; */
+	padding-top: 4px;
+	line-height: 1.5;
+	margin-left: 10px;
+}
+
+#perform_request_search .prq_content_title{
+	width: 100%;
+	font-size: 15px;
+	margin-bottom: 4px;
+	/* font-weight: bold; */
+	color: #333;
+	/* margin-top: 5px; */
+}
+
+#perform_request_search .prq_content_genre{
+	width: 100%;
+	font-size: 11px;
+	text-overflow: ellipsis !important;
+	color: #888;
+	word-wrap: normal;
+	height: auto;
+	display: -webkit-inline-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	/* white-space: nowrap; */
+}
+
+.prq_content_tinfo {
+    width: 87% !important;
+}
+
+#perform_request_search .prq_content_btn{
+	width: 13%;
+	font-size: 20px;
+	text-align: right;
+	padding: 20px 0px;
+	color: #999;
+	position: relative;
+}
+
+#perform_request_search input[name="prq_list_chk"]{
+	display: none;
+}
+
+#perform_request_search .prq_list_chk_btn{
+	background-image: url(/img/common/checkbox.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+}
+
+#perform_request_search input[name="prq_list_chk"]:checked + .prq_list_chk_btn{
+	background-image: url(/img/common/checkbox_checked.png);
+}
+
+#perform_request_search .prq_content_btn_select{
+    color: #8d5cb1 !important;
+}
+
+#perform_request_search #prq_search_notice{
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: left;
+	background-color:#f8f8f8;
+	padding:15px;
+}
+
+#perform_request_search #prq_search_content{
+	/* margin-top: 70px; */
+
+}
+
+/* #perform_request_search #prq_sh_request_btn{
+	margin: 15px;
+	width: auto;
+	display: none;
+	border-radius: 5px;
+	margin-top: 30px;
+    box-shadow: 0px 6px 17px 0px #a5a5a5a6;
+} */
+
+/* 팀 정보 보는 팝업 */
+#get_teaminfo_popup-popup{
+	max-width: 100% !important;
+	top: 0 !important;
+	left: 0 !important; 
+}
+
+
+/* 공연 요청 검색에서 팀정보 푸터부분 */
+.dp_footer_btn .ui-block-a{
+	width: 50% !important;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	background-color: #8354c8 !important;
+	font-size: 15px;
+}
+
+.dp_footer_btn .ui-block-b{
+	color: #fff;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	width: 50%;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700 !important;
+	margin-bottom: 10px;
+	box-shadow: 0px -6px 10px -10px #5c5d69;
+	background-color: #333333;
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 스크롤 이상현상 방지 */
+#view_contract div[data-role=content]{
+    overflow: hidden !important;
+}
+
+#view_contract {
+    height: 100%;
+    padding-bottom: 0 !important; 
+    padding-top: 0 !important;
+}
+#view_contract *{
+    letter-spacing:-0.5px;
+}
+
+#view_contract .vc_title {
+    margin-top: 59px;
+    text-align: right;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* #view_contract .vc_title p {
+    text-align: left;
+    font: normal normal bold 19px/28px SpoqaHanSans;
+    color: #333333;
+} */
+#view_contract .vc_img_container {
+    width: 100%;
+    margin-bottom: 54px;
+}
+#view_contract .vc_footer {
+    bottom: 0;
+    left: 0;
+    background: #8354C8 0% 0% no-repeat padding-box;
+    margin-bottom: 0px !important;
+    padding-bottom: calc(17px + env(safe-area-inset-bottom));
+    padding-bottom: calc(19px + constant(safe-area-inset-bottom));
+    box-shadow: none;
+}
+#view_contract .vc_img {
+    width: 100%;
+}
+#view_contract .vc_refresh_text {
+    font: normal normal normal 14px/20px SpoqaHanSans;
+color: #7B7D88;
+}
+#view_contract .vc_refresh_text_div {
+    margin-left: 15px;
+    text-align: left;
+}
+#view_contract 
+#view_contract 

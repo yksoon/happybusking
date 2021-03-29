@@ -1,0 +1,352 @@
+#busking_time_apply_detail {
+    overflow: hidden;
+}
+
+#busking_time_apply_detail #busking_time_apply_detail_content {
+    padding: 25px !important;
+}
+
+#busking_time_apply_detail .btad_top_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+#busking_time_apply_detail .btad_team_name_title {
+    flex: 1;
+    text-align: left;
+}
+#busking_time_apply_detail .btad_team_name_title p {
+    text-align: left;
+    font: normal normal bold 19px/28px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#busking_time_apply_detail .btad_artist_info {
+    text-decoration: underline;
+    font: normal normal normal 14px/30px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #8354C8;
+}
+
+#busking_time_apply_detail .btad_info_title {
+    text-align: left;
+}
+
+#busking_time_apply_detail .btad_info_title p {
+    font: normal normal bold 15px/11px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+
+#busking_time_apply_detail .btad_info_table {
+    margin-top: 15px;
+}
+
+#busking_time_apply_detail .btad_info_table table {
+    width: 100%;
+    table-layout: fixed;
+}
+#busking_time_apply_detail .btad_info_table table th {
+    background: #F0F1F4 0% 0% no-repeat padding-box;
+    width: 73px;
+    height: 42px !important;
+    border-top: 1px solid #D9DBE6 !important;
+    border-bottom: 1px solid #D9DBE6 !important;
+    border-left: none !important;
+    border-right: none !important;
+
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+    font: normal normal normal 14px/22px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #7B7D88;
+}
+#busking_time_apply_detail .btad_info_table table td {
+    background: #FAFBFD 0% 0% no-repeat padding-box;
+    padding: 0px 0px 0px 9px;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: 1px solid #D9DBE6 !important;
+    border-bottom: 1px solid #D9DBE6 !important;
+
+    text-align: left;
+    font: normal normal normal 14px/42px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#busking_time_apply_detail .btad_intro_video {
+    text-decoration: underline;
+    color: blue;
+}
+
+#busking_time_apply_detail .btad_apply_info_container {
+    margin-top: 30px;
+}
+
+#busking_time_apply_detail .btad_footer {
+    /* padding-top: 17px;
+    padding-bottom: 17px; */
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700 !important;
+    /* margin-bottom: 10px; */
+
+    display: flex;
+}
+#busking_time_apply_detail .btad_footer_reject {
+    flex: 1;
+    background: #3E3F4B 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#busking_time_apply_detail .btad_footer_accept {
+    flex: 1;
+    background: #8354C8 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+#busking_time_apply_detail .btad_footer_notice {
+    flex: 1;
+    background:#B9BABE 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#busking_time_apply_detail .btad_contract_status_container {
+    margin-top: 30px;
+}
+
+
+
+#busking_time_apply_detail .btad_contract_team_name_container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#busking_time_apply_detail .btad_contract_team_name {
+    font: normal normal bold 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#busking_time_apply_detail .btad_contract_status_label {
+    margin-left: 5px;
+    background: #33CB8510 0% 0% no-repeat padding-box;
+    border: 1px solid #33CB85;
+    border-radius: 2px;
+    width: 50px;
+    height: 20px;
+
+    text-align: center;
+    font: normal normal bold 12px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #33CB85;
+}
+
+
+/* input check setting */
+#busking_time_apply_detail input[type="checkbox"] {
+    display: none;
+    float: left;
+}
+#busking_time_apply_detail input[type="checkbox"] + label {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(/img/busking_time/check_perfo.svg) no-repeat;
+    background-size: contain;
+}
+
+#busking_time_apply_detail input[type="checkbox"]:checked + label {
+    background: transparent url(/img/reg_store/chk.png) no-repeat;
+    background-size: contain;
+}
+
+#busking_time_apply_detail .btad_btn_container {
+    float: right;
+    display: flex;
+    align-items: center;    
+}
+#busking_time_apply_detail .btad_stat_container {
+    float: right;
+    display: flex;
+    align-items: center;    
+}
+#busking_time_apply_detail .btad_btn_container label {
+    text-align: left;
+    font-size: 13px !important;
+    color: #333;
+    padding-left: 0 !important;
+    margin: 0 !important;
+}
+
+#busking_time_apply_detail .btad_contract_check_span {
+    font: normal normal normal 14px/16px SpoqaHanSans;
+    margin-left: 5px;
+}
+#busking_time_apply_detail .sign_notcom_span {
+    text-decoration: underline;
+    color: #F76C4A;
+}
+#busking_time_apply_detail .sign_com_span {
+    color: #8354C8;
+}
+
+#busking_time_apply_detail .btad_contract_table table th {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid #F4F5FA !important;
+}
+#busking_time_apply_detail .btad_contract_table table td {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid #F4F5FA !important;
+}
+
+#busking_time_apply_detail .btad_total_price_container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#busking_time_apply_detail .btad_remain_price_con {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#busking_time_apply_detail .btad_total_price_title {
+    text-align: left;
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #7B7D88;
+}
+#busking_time_apply_detail .btad_total_price {
+    font: normal normal bold 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#busking_time_apply_detail .btad_footer_cancel_artist {
+    flex: 1;
+    background:  #3E3F4B 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#busking_time_apply_detail .btad_personal_price_input {
+    height: 35px;
+    width: 117px;
+    padding: 7px 10px 7px 10px;
+    text-align: right;
+    font: normal normal normal 14px/35px SpoqaHanSans;
+    color: #333333;
+    border: 1px solid #D9DBE6;
+    border-radius: 3px;
+    margin-bottom: 4px; 
+}
+#busking_time_apply_detail .btad_art_name {
+    color: #333333;
+    width: 50px;
+}
+#busking_time_apply_detail .btad_remain_price {
+    color: #F76C4A;
+}
+
+#busking_time_apply_detail .btad_footer_e_contract {
+    flex: 1;
+    background:  #8354C8 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#busking_time_apply_detail .btad_footer_e_contract_view_contract {
+    flex: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    ccolor: #333333;
+}
+#busking_time_apply_detail .btad_footer_e_contract_complete_contract {
+    flex: 1;
+    background: #B9BABE 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/60px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+#busking_time_apply_detail .btad_perform_info_notice p{
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+    text-align: left;
+}
+#busking_time_apply_detail .btad_perform_info_notice {
+    margin-top: 10px;
+}
+#busking_time_apply_detail .btad_perform_info_notice_2 {
+    margin-top: 7px;
+}
+#busking_time_apply_detail .btad_perform_info_notice_2 p {
+    text-align: left;
+    font: normal normal normal 12px/18px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #666666;
+}
+#busking_time_apply_detail .btad_perform_info_endPerform_btn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 25px;
+
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font: normal normal bold 14px/50px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #DBDBDB;
+
+    margin-top: 20px;
+}
+#busking_time_apply_detail .btad_endPerform_who {
+    margin-top: 15px;
+    text-align: center;
+}
+#busking_time_apply_detail .btad_endPerform_who p {
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #999999;
+}
+#busking_time_apply_detail .btad_bank_info_container_2 {
+    margin-top: 30px;
+}
+
+#busking_time_apply_detail .btad_bank_info_not_p {
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #999999;
+}
+
+#busking_time_apply_detail .btad_contract_cancel_contract_p {
+    text-decoration: underline;
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FD4444;
+}
+#busking_time_apply_detail .btad_perform_info_title {
+    display: flex;
+    align-items: center;
+}
+#busking_time_apply_detail .content {
+    font: normal normal normal 12px/24px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #999999;
+    margin-left: 6px;
+}
+#busking_time_apply_detail 
+#busking_time_apply_detail 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="그룹_1319" data-name="그룹 1319" transform="translate(-200 -1043)">
+    <rect id="사각형_766" data-name="사각형 766" width="66" height="66" transform="translate(200 1043)" fill="none"/>
+    <g id="그룹_1316" data-name="그룹 1316" transform="translate(-4.412 -1)">
+      <path id="패스_618" data-name="패스 618" d="M0-2.062,9.432.35h0V9.107c0,1.812-2.111,3.281-4.716,3.281S0,10.919,0,9.107Z" transform="translate(211.412 1083.057)" fill="#fff" stroke="#2b3146" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+      <path id="패스_616" data-name="패스 616" d="M0,7.11,29.588-1V27.975L0,19.865Z" transform="translate(211.412 1061.444)" fill="#9f5efd" stroke="#2b3146" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+      <path id="교차_1" data-name="교차 1" d="M0,7c0,3.865,3.583,7,8,7V0C3.583,0,0,3.135,0,7Z" transform="translate(255.512 1081.425) rotate(180)" fill="#fff" stroke="#2b3146" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+      <line id="선_58" data-name="선 58" x2="5.923" transform="translate(259.488 1074.683)" fill="none" stroke="#2b3146" stroke-linecap="round" stroke-width="2.2"/>
+      <line id="선_59" data-name="선 59" x2="5.924" transform="translate(265.015 1065.946) rotate(150)" fill="none" stroke="#2b3146" stroke-linecap="round" stroke-width="2.2"/>
+      <line id="선_60" data-name="선 60" x2="5.924" transform="translate(265.015 1083.39) rotate(-150)" fill="none" stroke="#2b3146" stroke-linecap="round" stroke-width="2.2"/>
+      <rect id="사각형_763" data-name="사각형 763" width="8" height="34" rx="4" transform="translate(241 1058)" fill="#fff" stroke="#2b3146" stroke-linecap="round" stroke-width="2.2"/>
+    </g>
+  </g>
+</svg>

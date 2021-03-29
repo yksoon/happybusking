@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+#support_page .support_payment_body{
+	border-top: 1px solid #eeeeee;
+    background-color: #f6f6f6;
+}
+
+#support_page .spt_payment_btn{
+	padding: 15px;
+}
+
+#support_page .spt_amt_div{
+	position: relative;
+}
+
+#support_page .spt_input_text{
+	position: absolute;
+    display: inline;
+    top: 9px;
+    right: 25px;
+    font-size: 14px;
+}
+
+#support_page #PayMethod-button{
+	display: none;
+}
+
+#support_page .spt_payway {
+	font-size: 14px;
+	line-height: 3;
+	background-color: #e5e5e5;
+	color: #888;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 15px;
+}
+
+#support_page .spt_payway:first-child {
+    width: 48% !important;
+    float: left;
+}
+
+#support_page .spt_payway.ui-block-b {
+    width: 48% !important;
+    float: right;
+}
+
+#support_page .spt_payway_select {
+    color: #ffffff;
+    background-color: #8354c8;
+    border: 1px solid #8354c8;
+    font-size: 14px;
+	margin-bottom: 15px;
+    box-shadow: 0px 4px 5px 0px #797b863b;
+}
+}
+#support_page .spt_amt_btn_container{
+	width: 100%;
+}
+
+#support_page .spt_amt_btn{
+	display: inline-block;
+	color: #ffffff;
+	padding: 4px 6px;
+	font-size: 13px;
+	letter-spacing: -0.5px;
+	border-radius: 0;
+}
+
+#support_page .spt_amt_plus{
+	background-color: #8354c8;
+}
+
+#support_page .spt_amt_minus{
+	border: 1px solid #8354c8;
+	color: #8354c8;
+}

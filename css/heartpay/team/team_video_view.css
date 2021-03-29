@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+
+#team_video_view .team_videoViewTitle{
+	height: 45px;
+}
+
+#team_video_view .team_videoViewTitle .ui-block-a{
+	width: 50%; 
+	text-align: left; 
+	padding: 5% 0 0 15px; 
+	font-size: 15px; 
+}
+
+#team_video_view .team_videoViewTitle .ui-block-b{
+	width: 50%; 
+	text-align: right;
+	font-size: 12px; 
+	padding: 5% 15px 0 0; 
+	margin-top: 1%; 
+	text-decoration: underline; color:#707070;
+}
+
+
+
+#teamVideoView_part{
+	padding: 0px 15px;
+}
+
+#team_video_view .videoBundle{
+	text-align: left;
+}
+
+#team_video_view .videoBundle iframe{
+	margin-top: 4%;
+}
+
+#team_video_view .videoBundle p{
+	padding: 3px 0px;
+	font-size: 14px;
+}
+
+#team_video_view .videoBundle .videoBundleUser{
+	color: #8d5cb1;
+	font-size: 12px;
+}

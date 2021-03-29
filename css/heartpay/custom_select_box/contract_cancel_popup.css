@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+.hidden {height:100%; min-height:100%; overflow:hidden !important; touch-action:none;}
+#contract_cancel_popup{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+    display: none;
+    border: none !important;
+}
+#contract_cancel_pop * {
+    letter-spacing: -0.5px;
+}
+#contract_cancel_pop .ccp_body {
+	width: 100%;
+    height: 100%;
+}
+
+#contract_cancel_pop .ccp_body_content {
+    height: 435px;
+    width: 244px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 20px #0000001A;
+    opacity: 1;
+    padding: 18px;
+    margin-bottom: 54;
+    overflow: scroll;
+    border-radius: 10px;
+
+    position: absolute;
+    
+    /* position : absolute한 btn-area가 텍스트를 가리므로 아래로 밀어냄 */
+    z-index: 1;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: auto;
+}
+
+#contract_cancel_pop .ccp_close {
+    width: 100%;
+    text-align: right;
+}
+#contract_cancel_pop .ccp_close_btn {
+    width: 12px;
+    height: 12px;
+}
+
+#contract_cancel_pop .ccp_title {
+    width: 100%;
+    text-align: center;
+
+    margin-top: 24px;
+}
+#contract_cancel_pop .ccp_title p {
+    font: normal normal bold 21px/30px SpoqaHanSans;
+    color: #333333;
+}
+
+#contract_cancel_pop .ccp_message {
+    width: 100%;
+    text-align: center;
+
+    margin-top: 20px;
+}
+#contract_cancel_pop .ccp_message p {
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+}
+
+#contract_cancel_pop .ccp_confirm_btn_container {
+    margin-top: 28px;
+    width: 100%;
+
+    text-align: center;
+}
+#contract_cancel_pop .ccp_confirm_btn {
+    width: 222px;
+    height: 55px;
+
+    display: inline-block;
+
+    background: #8354C8 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+
+    text-align: center;
+    font: normal normal bold 15px/55px SpoqaHanSans;
+    color: #FFFFFF;
+}
+
+#contract_cancel_pop .ccp_cancel_btn_container {
+    margin-top: 20px;
+    width: 100%;
+
+    text-align: center;
+}
+#contract_cancel_pop .ccp_cancel_btn {
+    width: 45px;
+    height: 21px;
+
+    display: inline-block;
+
+    text-align: center;
+    font: normal normal normal 14px/21px SpoqaHanSans;
+    color: #B9C0C7;
+}
+
+#contract_cancel_pop .ccp_contact_table_container {
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+#contract_cancel_pop .ccp_contact_table {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    width: 100%;
+}
+#contract_cancel_pop .ccp_contact_table th {
+    text-align: left;
+    font: normal normal normal 12px/20px SpoqaHanSans;
+    color: #777777;
+}
+#contract_cancel_pop .ccp_contact_table td {
+    text-align: right;
+    font: normal normal normal 12px/20px SpoqaHanSans;
+    color: #333333;
+}
+#contract_cancel_pop .ccp_notice {
+    text-align: center;
+}
+#contract_cancel_pop .ccp_notice p {
+    font: normal normal normal 10px/15px SpoqaHanSans;
+    color: #777777;
+}
+#contract_cancel_pop 
+#contract_cancel_pop 

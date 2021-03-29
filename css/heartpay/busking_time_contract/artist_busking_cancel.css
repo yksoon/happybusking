@@ -1,0 +1,304 @@
+@charset "UTF-8";
+.hidden {height:100%; min-height:100%; overflow:hidden !important; touch-action:none;}
+
+.artist_busking_cancel_popup{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+    display: none;
+    border: none !important;
+}
+#artist_busking_cancel {
+    letter-spacing: -0.5px;
+}
+#artist_busking_cancel .abc_body {
+    width: 100%;
+    height: 100%;
+}
+#artist_busking_cancel .abc_body_content {
+    height: 666px;
+    max-width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 20px #0000001A;
+    opacity: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 15px;
+    margin-bottom: 60px;
+
+    overflow: scroll;
+}
+
+#artist_busking_cancel .abc_footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #3E3F4B 0% 0% no-repeat padding-box;
+    margin-bottom: 0px !important;
+    padding-bottom: calc(17px + env(safe-area-inset-bottom));
+    font: normal normal bold 16px/26px SpoqaHanSans;
+}
+
+#artist_busking_cancel .abc_top_container {
+    display: flex;
+    justify-content: space-between;
+}
+#artist_busking_cancel .abc_title p {
+    text-align: left;
+    font: normal normal bold 21px/21px SpoqaHanSans;
+    color: #333333;
+}
+#artist_busking_cancel .abc_close {
+    width: 21px;
+    height: 21px;
+}
+#artist_busking_cancel .abc_close_img {
+    width: 14px;
+    height: 14px;
+    padding: 3px 0px 0px 6px;
+}
+
+
+
+#artist_busking_cancel .abc_card_container {
+    margin-top: 25px;
+    text-align: left;
+    height: 112px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#artist_busking_cancel .abc_card_img_container {
+    float: left;
+    width: 54px;
+    height: 100%;
+
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+}
+#artist_busking_cancel .abc_card_img_box {
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    overflow: hidden;
+
+    /* position: abcolute;
+    margin-left: 15px;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+#artist_busking_cancel .abc_card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#artist_busking_cancel .abc_card {
+    float: left;
+    height: 77px;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border-left: 7px solid #8E83CE;
+    padding: 15px 15px 20px 15px;
+    width: 73%;
+}
+#artist_busking_cancel .abc_card_top_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#artist_busking_cancel .abc_card_title {
+    flex: 2;
+}
+#artist_busking_cancel .abc_card_title p {
+    text-align: left;
+    font: normal normal bold 16px/25px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#artist_busking_cancel .abc_card_confirm {
+    flex: 1;
+}
+#artist_busking_cancel .abc_card_confirm p {
+    text-align: right;
+    font: normal normal normal 14px/25px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #9999A5;
+    text-decoration: underline;
+}
+#artist_busking_cancel .abc_card_time {
+    margin-top: 2px;
+    text-align: left;
+}
+#artist_busking_cancel .abc_card_time p {
+    font: normal normal normal 14px/25px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+
+#artist_busking_cancel .abc_card_contract {
+    margin-top: 10px;
+    text-align: left;
+}
+#artist_busking_cancel .abc_card_contract p {
+    font: normal normal bold 14px/25px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #8354C8;
+}
+
+
+/* input check setting */
+#artist_busking_cancel input[type="checkbox"] {
+    display: none;
+    float: left;
+}
+#artist_busking_cancel input[type="checkbox"] + label {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: transparent url(/img/busking_time/check_perfo.svg) no-repeat;
+    background-size: contain;
+    margin: 0;
+}
+
+#artist_busking_cancel input[type="checkbox"]:checked + label {
+    background: transparent url(/img/reg_store/chk.png) no-repeat;
+    background-size: contain;
+}
+
+#artist_busking_cancel .abc_chk_container {
+    display: flex;
+    align-items: center;    
+}
+
+
+
+#artist_busking_cancel .abc_team_container {
+    float: left;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border-left: 7px solid #E9E9F7;
+    padding: 20px 15px 20px 15px;
+    width: 73%;
+}
+#artist_busking_cancel .abc_team_left_container {
+    display: flex;
+    align-items: center;
+}
+
+#artist_busking_cancel .abc_team_right_container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#artist_busking_cancel .abc_team_name {
+    font: normal normal bold 15px/25px SpoqaHanSans;
+    color: #333333;
+}
+#artist_busking_cancel .abc_team_change {
+    text-decoration: underline;
+    font: normal normal normal 14px/18px SpoqaHanSans;
+    color: #999999;
+}
+#artist_busking_cancel .abc_team_chk_con {
+    display: flex;
+    align-items: center;
+}
+#artist_busking_cancel .abc_team {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+#artist_busking_cancel .abc_hr {
+width: 100% + 45px;
+height: 1px;
+background-color: #F5F5F5;
+margin-left: -15px;
+margin-right: -15px;
+}
+
+#artist_busking_cancel .abc_member {
+    margin-top: 20px;
+}
+
+#artist_busking_cancel .abc_member_section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+#artist_busking_cancel .abc_member_name {
+    font: normal normal normal 14px/25px SpoqaHanSans;
+    color: #333333;
+    word-break: break-all;
+}
+
+#artist_busking_cancel .abc_price_container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#artist_busking_cancel .abc_price_title p {
+    font: normal normal normal 14px/25px SpoqaHanSans;
+    color: #333333;
+}
+#artist_busking_cancel .abc_price p {
+    font: normal normal bold 14px/25px SpoqaHanSans;
+    color: #333333;
+}
+#artist_busking_cancel .abc_price_total p {
+    font: normal normal bold 14px/25px SpoqaHanSans;
+    color: #333333;
+}
+
+#artist_busking_cancel .abc_notice_container {
+    margin-top: 20px;
+    display: inline-flex;
+}
+#artist_busking_cancel .abc_notice p {
+    font: normal normal normal 13px/20px SpoqaHanSans;
+    color: #7B7B8D;
+}
+#artist_busking_cancel .abc_notice_container .abc_card_img_container {
+    width: 62px;
+}
+#artist_busking_cancel .abc_notice {
+    width: 100%;
+}
+
+#artist_busking_cancel .abc_personal_price_container {
+    display: flex;
+    align-items: center;
+    width: 119px;
+    height: 37px !important;
+}
+#artist_busking_cancel .abc_personal_price_container p{
+    font: normal normal normal 14px/36px SpoqaHanSans;
+    color: #7B7D88;
+}
+#artist_busking_cancel .personal_price {
+    width: 100%;
+    height: 100%;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    border: none;    
+    font: normal normal normal 14px/36px SpoqaHanSans;
+    color: #7B7D88;
+    text-align: right;
+    padding-right: 5px;
+}
+#artist_busking_cancel .abc_team_name_con {
+    display: flex;
+    align-items: center;
+    width: 50px;
+}

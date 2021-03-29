@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+.reg-warpper{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.reg-warpper .subtitle{
+	margin-top: 20px;	
+}
+
+.reg-warpper .subtitle > span{
+	margin-left: 5px;
+}
+
+.reg-warpper input, .reg-warpper textarea{
+	margin-top: 10px;	
+}
+
+.reg-warpper textarea{
+	height: 150px;
+}
+
+.retitle{
+	position: relative;
+}
+
+.chk-container {
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+
+.chk-container > input[type=checkbox]{
+	width: 22px;
+	height: 22px;
+    margin: 0;
+	margin-left: 15px;
+	margin-right: 3px;
+}
+
+#map{
+	width: 100%;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.img-container{
+	margin-top: 10px;
+    justify-content: space-between;
+}
+
+.img-container .img-box{
+	position: relative;
+    width: 19%;
+    height: 55px;
+    border: 1px solid #e5e5e5;
+}
+
+.img-container .rimg{
+	width: 100%;
+	height: 100%;
+}
+
+.img-container .cancel{
+	display: none;
+	position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 15px;
+}
+
+#addr-search{
+	width: 85px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 12px;
+    margin-left: 10px;
+}
+
+#apply{
+	margin-top: 50px;
+}
+
+
+.apply-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 20px 55px 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.apply-container > p , .apply-container > div{
+	text-align: center;
+}
+
+.ap-top {
+	text-align: right !important;
+}
+
+.ap-top > img {
+	width: 22px;
+}
+
+.ap-content{
+	margin-top: 10px;
+	margin-bottom: 35px;
+}

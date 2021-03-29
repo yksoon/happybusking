@@ -1,0 +1,320 @@
+@CHARSET "UTF-8";
+
+/* 버스킹존 상세페이지 이미지 슬라이드부분 CSS */
+#test_store #bdc_pfsc_ing_body{
+	overflow: hidden;
+	height: 345px;
+}
+
+#test_store #bdc_pfsc_ing_body ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#test_store #bdc_pfsc_ing_body li{
+	float: left;
+}
+
+/* 버스킹존 상세페이지 이미지 슬라이드 버튼부분 CSS */
+#test_store #detail_store_content{
+	position: relative;
+}
+
+#test_store #bdc_img_selecter {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#test_store #bdc_img_selecter li {
+	display: inline-block;
+    float: left;
+    font-size: 9px;
+    margin-left: 5px;
+    color: #d4d4d482;
+    border-radius: 5em;
+}
+
+#test_store #bdc_img_selecter li:first-child {
+    margin-left: 0px;
+}
+
+#test_store .bdc_img_active{
+	color: #8354c8 !important;
+}
+
+#test_store .store_dt1_img_list{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_title{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black; */
+
+}
+#test_store .store_dtl_title_j{
+    float: left;
+    width: 70%;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: 4%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_title_j_s{
+    text-align: left;
+    text-shadow: none !important;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+    color: #888
+}
+#test_store .store_dtl_title_j_b{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 21px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+#test_store .store_dtl_title_img{
+    width: 55px;
+    height: 55px;
+    margin-top: 3%;
+    margin-right: 4%;
+    float: right;
+    border: 2px solid#8354C8;;
+    border-radius: 50%;
+}
+
+#test_store .store_dtl_sub_title{
+    width: 100%;
+    left: 30px;
+    text-align: left;
+    font: normal normal bold 15px SpoqaHanSans;
+    letter-spacing:0.5px;
+    color: #333333;
+    opacity: 1;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_introduce{
+    width: 100%;
+    margin-top: 2%;
+    /* border: 1px solid black; */
+    height: 390px;
+}
+#test_store .store_dtl_introduce_t{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_introduce_c{
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    padding-top: 1%;
+    height: 100px;
+    margin-left: 4%;
+    margin-right: 17%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_introduce_ht_list{
+    /* border: 1px solid black; */
+    height: 100px;
+}
+#test_store .store_dtl_introduce_ht{
+    font: normal normal normal 13px SpoqaHanSans;
+    color: #666666;
+    margin: 5px 0px 5px 10px;
+    padding: 2px 10px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    float: left;
+    border: 1px solid #E4E6E8;
+    border-radius: 26px;
+}
+#test_store .store_dtl_introduce_addr{
+    height: 50px;
+    margin-left: 4%;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_introduce_time{
+    height: 30px;
+    margin-left: 4%;
+    margin-top: 3%;
+    text-align: left;
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #333333;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_introduce_addr_l{
+    width: 70%;
+    margin-top: 3%;
+    text-align:left;
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #333333;
+    float: left;
+}
+#test_store .store_dtl_introduce_addr_r{
+    width: 20%;
+    margin-top: 3%;
+    text-align:center;
+    float: right;
+    padding-right: 3%;
+    text-decoration: underline;
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #8354C8;
+
+}
+#test_store .store_dtl_kupon{
+    height: 320px;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    /* border: 1px solid black; */
+
+}
+#test_store .store_dtl_introduce_k{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 4%;
+    margin-left: 4%;
+    padding-top: 5%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#test_store .store_dtl_kupon_c{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 6%;
+    height: 120px;
+    border: 2px solid #D9DBEB;
+
+}
+#test_store .store_dtl_kupon_c_d{
+    
+    text-align: left;
+    width: 69%;
+    height: 120px;
+    float: left;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+#test_store .store_dtl_kupon_c_d_m{
+    
+    font: normal normal bold 23px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #333333;
+    margin-left: 8%;
+
+}
+#test_store .store_dtl_kupon_c_d_n{
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #666666;
+    margin-left: 8%;
+}
+#test_store .store_dtl_kupon_c_d_d{
+    font: normal normal normal 12px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #999999;
+    margin-left: 8%;
+}
+#test_store .store_dtl_kupon_c_t{
+    font: normal normal normal 14px SpoqaHanSans;
+    color: #8354C8;
+    text-align: center;
+    line-height:120px;
+    width: 30%;
+    height: 120px;
+    float: right;
+    border-left: 2px solid #D9DBEB;
+    background: #F0EFF7 0% 0% no-repeat padding-box;
+}
+#test_store .store_dtl_kupon_f{
+
+    text-align: center;
+    font: normal normal bold 15px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #7A7895;
+    line-height:50px;
+    height: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    
+    border: 2px solid #E2E1EF;
+    border-radius: 10px;
+}
+#test_store .store_dtl_butten{
+    
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    position: fixed;
+    background: #F0F1F4 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color:#333333;
+    line-height:60px;
+    height: 60px;
+    float: left;
+}
+#test_store .store_dtl_butten_a{
+    
+    width: 50%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    
+    background: #F0F1F4 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color:#333333;
+    line-height:60px;
+    height: 60px;
+    float: left;
+}
+#test_store .store_dtl_butten_b{
+    
+    width: 50%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    
+    background: #8354C8 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    line-height:60px;
+    height: 60px;
+    float: right;
+}

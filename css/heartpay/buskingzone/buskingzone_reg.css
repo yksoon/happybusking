@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+/* 버스킹존 등록 페이지 지도 설정 */
+#buskingzone_reg .brc_map_text {
+    font-size: 14px;
+    text-decoration: underline;
+    padding: 13px 0px;
+    border: 1px solid #eee;
+    color: #2196F3;
+    border-radius: 0.5em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#buskingzone_reg .brc_map_div {
+    width: 100%;
+    height: 180px;
+    margin: 10px 0px;
+    display: none;
+}
+/* /////////////////////// */
+/* 버스킹존 등록 페이지 이미지 추가 부분 */
+#buskingzone_reg .brc_main_image_container{
+	margin-top: 15px;
+}
+
+#buskingzone_reg #brc_main_image_btn_div {
+    width: 25% !important;
+    height: 140px;
+    position: relative;
+}
+
+#buskingzone_reg #brc_main_image_btn_div img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 11px;
+}
+
+#buskingzone_reg #brc_main_image_div{
+	width: 140px !important;
+    height: 140px;
+    border: 1px solid #d9d9d9;
+}
+
+#buskingzone_reg #brc_main_image_div img{
+	width: 100%;
+	height: 100%;
+}
+
+#buskingzone_reg .brc_sub_image_container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#buskingzone_reg #brc_sub_image_btn_div img {
+    width: 50px;
+    height: 50px;
+}
+
+#buskingzone_reg .brc_sub_image_div img {
+    width: 50px;
+    height: 50px;
+}
+
+#buskingzone_reg .brc_address_div .ui-block-a {
+    width: 72% !important;
+    margin-right: 3%;
+}
+/* /////////////////////// */

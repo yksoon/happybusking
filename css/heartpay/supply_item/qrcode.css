@@ -1,0 +1,457 @@
+@CHARSET "UTF-8";
+/* QR신청 페이지 동영상 안내부분 CSS */
+#qrcode_request .qr_video_info{
+	line-height: 7;
+	font-size: 14px;
+	background-color: #f9f9f9;
+	padding-top: 15px;
+}
+
+#qrcode_request .qr_video_chkbox_div{
+    text-align: left;
+    font-size: 13px;
+    padding: 0px 15px;
+    background-color: #f9f9f9;
+    color: #777;
+    line-height: 1.4;
+    letter-spacing: -1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#qrcode_request .qr_video_chkbox_title{
+    font-size: 14px;
+    color: #6a6a6b;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+#qrcode_request .qr_video_chkbox_title2{
+	font-size: 15px;
+	color: #333;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#qrcode_request .qr_video_chkbox_text{
+	font-size: 14px;
+}
+
+
+#qrcode_request .qr_video_chkbox_stext{
+	color: #2196F3;
+}
+
+#qrcode_request #qr_video_chkbox_line {
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 15px;
+}
+
+#qrcode_request .qr_video_info_container{
+	padding-bottom: 15px;
+	/* border-bottom: 10px solid #eee; */
+}
+
+#qrcode_request input[type=radio]{
+	display: none;
+}
+
+#qrcode_request .ui-radio{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#qrcode_request label{
+    background: none;
+    border: none !important;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#qrcode_request .ui-radio-on:after{
+	background: none;
+	background-image: url(/img/common/checkbox_checked.png) !important;
+	background-size: 85% !important;
+	background-repeat: no-repeat;
+	border: none !important;
+	width: 22px !important;
+	height: 22px !important;
+	border-radius: 0px;
+	opacity: 1;
+}
+
+#qrcode_request .ui-radio-off:after{
+	background: none;
+	background-image: url(/img/common/checkbox.png);
+	background-size: 85% !important;
+	background-repeat: no-repeat;
+	border: none !important;
+	width: 22px !important;
+	height: 22px !important;
+	border-radius: 0px;
+	opacity: 1;
+}
+/* /////////////////////////// */
+/* qr코드 신청현황  */
+#qrcode_request_list .isTitle{
+	height: 45px; 
+	border-bottom: 1px solid #eeeeee; 
+	margin-top: -4px;
+}
+
+#qrcode_request_list .isTitle .ui-block-a{
+	width: 50%; 
+	text-align: left; 
+	padding: 5% 0 0 15px; 
+	font-size: 15px; 
+}
+
+#qrcode_request_list .isTitle .ui-block-b{
+	width: 50%; 
+	text-align: right; 
+	font-size: 12px; 
+	padding: 5% 15px 0 0; 
+	margin-top: 1%;
+}
+
+#qrcode_request_list .itemStateContent{
+	padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+#qrcode_request_list #QrList_part .ui-block-a{
+	width: 30%;
+}
+
+#qrcode_request_list #QrList_part .ui-block-b{
+	width: 50%;
+	text-align: left;
+	font-size: 14px;
+}
+
+#qrcode_request_list #QrList_part .ui-block-c{
+	width: 20%;
+}
+
+
+#qrcode_request_list #QrList_part .ui-block-a img{
+	display: inline-block;
+}
+
+#qrcode_request_list #QrList_part .item-list-middle1{
+	/* margin-top: 15px; */
+	margin-left: 15px;
+	font-size: 15px;
+}
+
+#qrcode_request_list #QrList_part .item-list-middle2{
+	margin-top: 5px;
+	margin-left: 15px;
+	color: #888;
+	font-size: 12px;
+}
+
+#qrcode_request_list #QrList_part .item-list-middle3{
+	margin-top: 19px;
+	margin-left: 15px;
+	color: #a9a9a9;
+	font-size: 12px;
+}
+
+
+
+#qrcode_request_list #QrList_part .item-list-middle2 .ui-block-a{
+	width: 30px;
+}
+
+#qrcode_request_list #QrList_part .item-list-middle2 .ui-block-b{
+	width: 40px;
+}
+
+#qrcode_request_list #QrList_part .item-list-middle2 .ui-block-c{
+	width: 30px;
+}
+
+#qrcode_request_list .isWating{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #c5c5c5;
+    color: #a5a5a5;
+    margin-top: 32px;
+    font-size: 12px;	
+    width: 50px;
+    float: right;
+}
+#qrcode_request_list .isIng{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #a985c4;
+    color: #a985c4;
+    margin-top: 32px;
+    font-size: 12px;	
+    width: 50px;
+    float: right;
+}
+
+#qrcode_request_list .isFinish{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #a985c4;
+    color: white;
+    margin-top: 32px;
+    font-size: 12px;	
+    width: 50px;
+    float: right;
+    background-color: #a985c4;
+}
+
+#qrcode_request_list .isRefuse{
+	padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ff0080;
+    color: white;
+    margin-top: 32px;
+    font-size: 12px;	
+    width: 50px;
+    float: right;
+    background-color: #ff0080;
+}
+
+/* content쪽 날짜 표시  */
+#qrcode_request_list .ShowIsDate{
+  	font-size: 10px;
+  	color: #888;
+  	float: right;
+  	padding-top: 4px;
+}
+
+#qrcode_request_list .ShowIsTeam{
+	background-color: #eeeeee;
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+#qrcode_request_list .srqCancel{
+	color: #3277f6;
+    border-bottom: 1px solid #3277f6
+}
+
+
+.itemStateContent img{
+	max-width: 100%;
+	height: 82px;
+}
+
+
+/* QR신청 페이지 결제부분 */
+#qrcode_request .qrcode_request_body{
+	padding: 15px;
+	/* border-top: 9px solid #f8f8f8; */
+	padding-bottom: 10px;
+	background-color: #f9f9f9;
+}
+
+#qrcode_request #PayMethod-button{
+	display: none;
+}
+
+#qrcode_request .qrcode_request_body_last{
+	border: none;
+	padding-bottom: 50px;
+	border-top: 1px solid #eee;
+	background-color: #fff;
+}
+
+#qrcode_request .qrb_main_title{
+	text-align: left;
+	font-size: 16px;
+	padding: 25px 0px 10px 0px;
+	color:#000;
+}
+
+#qrcode_request .qrb_sub_title{
+	text-align: left;
+	font-size: 13px;
+	padding: 20px 0px 10px 0px;
+	color: #444;
+}
+
+#qrcode_request .qrb_payway {
+	font-size: 14px;
+	line-height: 3;
+	background-color: #e5e5e5;
+	color: #888;
+	border: 1px solid #e5e5e5;
+	/* border-radius: 5px; */
+	margin-bottom: 15px;
+}
+
+#qrcode_request .qrb_payway:first-child {
+    width: 48% !important;
+    float: left;
+}
+
+#qrcode_request .qrb_payway.ui-block-b {
+    width: 48% !important;
+    float: right;
+}
+
+#qrcode_request .qrb_payway_select {
+    color: #ffffff;
+    background-color: #8354c8;
+    border: 1px solid #8354c8;
+    font-size: 14px;
+	margin-bottom: 15px;
+    box-shadow: 0px 4px 5px 0px #797b863b;
+    /* border-radius: 5px; */
+}
+
+#qrcode_request .qrb_input_div{
+	position: relative;
+}
+
+#qrcode_request .qrb_input_text{
+	position: absolute;
+	top: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+#qrcode_request .qrb_amt_btn_container{
+	width: 100%;
+}
+
+#qrcode_request .qrb_amt_btn{
+	display: inline-block;
+	color: #ffffff;
+	padding: 4px 6px;
+	font-size: 13px;
+	letter-spacing: -0.5px;
+	border-radius: 0;
+}
+
+#qrcode_request .qrb_amt_plus{
+	background-color: #8354c8;
+}
+
+#qrcode_request .qrb_amt_minus{
+	border: 1px solid #8354c8;
+	color: #8354c8;
+}
+
+#qrcode_request .qrb_btn_container{
+	display: none;
+}
+
+#qrcode_request #qrb_prev_btn{
+	background-color: #d9d9d9;
+    color: #fff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 30%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#qrcode_request #qrb_success_btn{
+	background-image: linear-gradient(to left, #8354c8 0%, #c750bf 100%);
+    color: #fff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* 결제 완료 페이지 CSS */
+#qrcode_request_complete_page .qrb_comp_div{
+	padding: 15px;
+	font-size: 15px;
+}
+
+#qrcode_request_complete_page .qrb_comp_header{
+	margin-bottom: 15px;
+}
+
+#qrcode_request_complete_page .qrb_comp_body{
+	line-height: 2;
+}
+
+#qrcode_request_complete_page .qrb_fail_div{
+	padding: 15px;
+    font-size: 15px;
+    line-height: 3;
+}
+
+#qrcode_request_complete_page span{
+}
+
+/* 결제 취소 페이지 CSS */
+#qrcode_request_cancel_page .qrc_title {
+    padding: 20px 15px 5px 15px;
+    text-align: left;
+    font-size: 13px;
+    color: #444;
+}
+
+#qrcode_request_cancel_page input {
+    padding: 0px 0px 3px 3px;
+    font-size: 14px;
+    color: #000;
+    min-height: 0px;
+}
+
+#qrcode_request_cancel_page .ui-corner-all {
+    margin: 15px;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+    margin-bottom: 15px;
+    border-color: #d9d9d9;
+}
+
+
+/* 이벤트 팝업 */
+#qrRequestPopup{
+	border: none;
+    border-radius: 6px !important;
+}
+
+#qrp_image{
+	width: 330px;
+	height: 468px;
+}
+
+.qrp_close_btn {
+    text-align: right;
+    padding: 13px !important;
+    font-size: 12px;
+    position: relative;
+}
+
+.qrp_close_btn2 {
+    text-align: right;
+    padding: 13px !important;
+    font-size: 12px;
+    position: relative;
+}
+
+.qrp_close_btn2 #qrRequestPopupClose{
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    right: 41px;
+    top: 16px;
+}
+
+.qrp_close_btn #qrRequestPopupClose2 {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    right: 41px;
+    top: 16px;
+}

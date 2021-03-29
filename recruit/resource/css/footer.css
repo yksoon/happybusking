@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+.footer{
+	margin-top: 40px;
+}
+.f-top{
+	border-bottom: 1px solid #f5f5f5;
+	padding: 15px 20px;
+}
+
+.f-top > p {
+	margin-right: 20px;
+	letter-spacing: 0px;
+	cursor: pointer;
+}
+
+.f-bottom{
+	padding: 30px 20px;
+} 

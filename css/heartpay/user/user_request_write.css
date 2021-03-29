@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+#user_request_write .non_member_div{
+	display: none;
+}
+
+#user_request_write .urw_title {
+    padding: 20px 0px 5px 0px;
+    text-align: left;
+    font-size: 13px;
+}
+
+#user_request_write #urw_type-button{
+	background-color: #fff;
+    box-shadow: none;
+    color: #a1a1a1;
+    font-size: 15px;
+    background: url(/img/common/showing_btn.svg) no-repeat 95%;
+    background-size: 4%;
+}
+
+#user_request_write #urw_type-button:after{
+	display: none;
+}
+
+#user_request_write #urw_title_area{
+	height: 60px !important;
+    resize: none;
+    overflow-y: hidden;
+    color: #000;
+    font-size: 15px;
+}
+
+#user_request_write #urw_content_area {
+    height: 250px !important;
+    resize: none;
+    overflow-y: hidden;
+    color: #000;
+    font-size: 15px;
+}
+

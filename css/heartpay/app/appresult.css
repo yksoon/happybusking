@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+
+* {
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+  letter-spacing:-0.25px;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0 auto;
+	height: 100%;
+}
+
+p{
+	margin: 0 auto;
+}
+
+#appresultpage{
+	position: relative;
+	background-image: url(/img/app/bg2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-color: #5a2f9b;
+	width: 100%;
+	height: 100%;
+}
+
+.apprp_logo {
+    width: 150px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.apprp_text_1{
+	margin-top: 5%;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 13px;
+    opacity: 0.6;
+}
+
+.apprp_text_2 {
+   color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.apprp_text_3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #c2a4ef;
+    margin-bottom: 5px;
+}
+
+.apprp_text_4{
+    text-align: center;
+    font-size: 1.7em;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: 33%;
+    line-height: 1.3;
+}
+
+#apprp_team_name{
+	font-size: 1.2em;
+	font-weight: 700;
+	box-shadow: inset 0px -17px 0px 0px #00bcd4;
+}
+
+.apprp_footer_container{
+	width: 100%;
+	position: absolute;
+	bottom: 2%;
+}
+
+.apprp_phone_image {
+    width: 280px;
+    height: 380px;
+    margin-top: 15px;
+}
+
+.apprp_btn_img {
+    display: inline-block;
+    width: 43%;
+    text-align: center;
+    padding: 5px;
+}
+
+.apprp_btn_img img {
+    width: 100%;
+}

@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+/* 멤버 상세 페이지 이미지부분 */
+#detail_artist .da_img{
+	width: 100%;
+	height: 220px;
+	background-repeat: no-repeat; 
+	background-position: center;
+	border:  0;
+	background-size: cover;
+	font-size: 15px;
+	color: white;
+	box-shadow: inset 0px -63px 102px 3px rgba(0,0,0,0.45);
+}
+
+#detail_artist .da_text_container{
+	text-align: left;
+	margin-top: 144px;
+	padding-left: 15px;
+}
+
+#detail_artist .da_teamname{
+	color: white;
+	font-size: 17px;
+	line-height: 22px;
+	padding-bottom:2px;
+}
+
+#detail_artist .da_infobox{
+	font-size: 11px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	opacity: 0.85;
+	overflow: unset;
+	padding-bottom: 2px;
+}
+
+#detail_artist .da_interest_img{
+	width: 12% !important;
+}
+
+#detail_artist .da_interest_count{
+    font-size: 12px;
+    margin-top: 0.8%;
+    margin-left: -1px;
+}
+
+/* 멤버 상세 페이지 소개 부분 */
+#detail_artist .da_middle_header{
+	height: 45px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+#detail_artist .da_mh_left{
+	text-align: left;
+	padding: 5% 0 0 15px;
+	font-size:15px;
+	color:#333;
+	font-weight:bold;
+}
+
+#detail_artist .da_mh_right{
+	text-align: right;
+	font-size:12px;
+	padding: 5% 15px 0 0; 
+	margin-top:1%; 
+	color:#888; 
+	text-decoration:underline;
+}
+
+#detail_artist .da_intro{
+	font-size : 14px;
+	text-align:  left;
+	padding: 15px;
+	line-height:25px;
+}
+
+#detail_artist .da_content_header{
+	height: 25px;
+	border-bottom: 1px solid #eeeeee;
+	text-align: left;
+	font-size: 15px;
+	color: #333;
+	padding: 50px 0px 0px 15px;
+}
+
+#detail_artist .da_content_container{
+	padding: 5% 10px 5% 15px;
+	text-align: left;
+	color: #333;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+#detail_artist .da_cc_style{
+	margin-top: 5px;
+}
+
+#detail_artist .da_cc_title{
+	font-weight: bold;
+	color: #888;
+}
+
+#detail_artist .da_cc_conent{
+	margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+.admin_page_menu {
+    width: 100%;
+    text-align: center;
+}
+
+.apm_list {
+   display: inline-block;
+    font-size: 14px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.apm_list img {
+    width: 28px;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    display: none;
+}
+
+.admin_page_footer{
+	display: none !important;
+}
+
+
+.apm_select{
+	display: none;
+}

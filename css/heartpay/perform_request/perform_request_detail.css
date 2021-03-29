@@ -1,0 +1,170 @@
+@CHARSET "UTF-8";
+
+
+/* 공연의뢰 상세보기 상단 팀정보  */
+#perform_request_detail .prq_detail_teamname{
+	padding: 20px 15px 15px 15px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	/* border-bottom: 1px solid #eeeeee; */
+}
+
+#perform_request_detail .prq_detail_teamname span{
+	color: #8354c8;
+	font-weight: bold;
+}
+
+/* 공연의뢰 상세보기 content  */
+.prqDetailListContentCss{
+	padding: 15px;
+	font-size: 14px;
+	margin: 15px;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 12px 0px #e5e5ea;
+}
+
+.prqDetailListContentCss .ui-block-a{
+	width: 40% !important;
+	text-align: left;
+	font-size: 14px;
+	color: #888;
+	font-weight: bold;
+}
+
+.prqDetailListContentCss .ui-block-b{
+	width: 60% !important;
+	text-align: right;
+	font-size: 13px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.prqDetailListContentCss p{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 13px;
+	line-height: 1.4;
+	letter-spacing: -0.7px;
+}
+
+.prqDetailListContentCss .prqDetailLine{
+	display: inline-block;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px dotted #dfdfdf;
+	background-color: #eee;
+}
+
+
+.prqDetailListContentCss .prqDetailPriceCss{
+	padding-top: 2px;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.prqDetailListContentCss .prqDetailPrice{
+	color: #8354c8;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+/* 공연의뢰 상세보기 주소 title  */
+
+.prqDetailAddrTitle{
+	text-align: left;
+	font-size: 14px;
+	padding: 10px 0px 10px 0px;
+	font-weight: bold;
+	color: #333;
+	margin: 15px;
+	margin-top: 25px;
+	border-bottom: 1px solid #eee;
+}
+
+/* 공연의뢰 상세보기 주소 및 지도 영역  */
+.prqDetailAddrContent{
+	padding: 15px;
+	font-size: 14px;
+}
+
+.prqDetailEQSup{
+	text-align: left;
+}
+
+.prqDetailAddrContent p{
+	padding-top: 3px;
+	padding-bottom: 5px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.prqDetailAddrContent .prqDetailPlace{
+	margin-top: 25px;
+}
+
+/* 공연의뢰 상세보기 지도쪽  */
+.prqDetailMapArea{
+	width: 100%; 
+	height: 180px;
+
+}
+
+
+/* 공연의뢰 상세보기 수락 및 거절 버튼  */
+
+.prqDetailButton{
+	color: white;
+    margin-top: 25px;	
+}
+
+.prqDetailButton p{
+	padding: 15px;
+	font-size: 15px;
+}
+
+.prqDetailButton .prqDetailBtnNo{
+	width: 40% !important;
+    background-color: #313131;
+}
+
+.prqDetailButton .prqDetailBtnYes{
+	width: 60% !important;
+    background-color: #8354c8;
+}
+
+.prq_detailCancelMsg{
+    text-align: left;
+    padding: 15px;
+    margin-top: 25px;	
+}
+
+
+/* 공연 의뢰 거절 작성 페이지  */
+#perform_request_refuse_msg #prq_refuse_title{
+	font-size: 14px;
+    text-align: left;
+    padding: 15px 15px 0px 15px;
+    margin-top: 40px;
+}
+
+#perform_request_refuse_msg #prq_refuse_body{
+	padding: 0px 15px 15px 15px;
+    font-size: 18px;
+    height: auto;
+}
+
+#perform_request_refuse_msg #prq_refuse_area{
+	height: 420px !important;
+}
+
+#perform_request_refuse_msg #prq_refuse_btn{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

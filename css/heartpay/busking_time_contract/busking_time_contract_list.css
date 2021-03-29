@@ -1,0 +1,237 @@
+#busking_time_contract_list {
+    overflow: hidden;
+}
+
+#busking_time_contract_list #busking_time_contract_list_content {
+    padding: 45px 15px 20px 15px !important;
+}
+
+
+#busking_time_contract_list .btcl_top_container {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 9px; */
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 45px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+#busking_time_contract_list .btcl_date_select_container {
+    flex: 1;
+    text-align: left;
+}
+#busking_time_contract_list .btcl_year_select {
+    float: left;
+}
+#busking_time_contract_list .btcl_month_select {
+    float: left;
+    flex: 1;
+}
+
+/* 셀렉트박스 ui 사용X */
+#busking_time_contract_list .ui-btn {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+#busking_time_contract_list .ui-btn:after {
+    background: none;
+}
+#busking_time_contract_list .ui-select {
+    margin: 0;
+    width: auto;
+}
+
+
+
+#busking_time_contract_list #btcl_year_select-button {
+    text-align: left;
+    letter-spacing: -0.5px;
+    color: #333333;
+    width: 62px;
+    margin-right: 0;
+}
+#busking_time_contract_list #btcl_month_select-button {
+    text-align: left;
+    font: normal normal bold 19px/21px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+    width: 69px;
+    margin-left: 7px;
+}
+#busking_time_contract_list .btcl_down_arrow {
+    float: left;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+#busking_time_contract_list #btcl_category_select-button {
+    text-align: left;
+    font: normal normal normal 14px/18px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #666666;
+    height: 18px;
+    float: left;
+    width: 40px;
+}
+#busking_time_contract_list .btcl_confirm_category_container .btcl_down_arrow {
+    position: absolute;
+    margin-left: -15px;
+}
+
+
+#busking_time_contract_list .btcl_mid_container {
+    margin-top: 28px;
+}
+
+#busking_time_contract_list .btcl_mid_date_container {
+    text-align: left;
+    height: 21px;
+    margin-bottom: 21px;
+    margin-top: 20px;
+}
+#busking_time_contract_list .btcl_day {
+    float: left;
+    display: inline-block;
+}
+#busking_time_contract_list .btcl_day p {
+    font: normal normal bold 14px/18px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#busking_time_contract_list .btcl_dayofweek {
+    float: left;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+#busking_time_contract_list .btcl_dayofweek p {
+    font: normal normal normal 14px/18px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+
+
+#busking_time_contract_list .btcl_card_container {
+    text-align: left;
+    height: 88px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#busking_time_contract_list .btcl_card_img_container {
+    float: left;
+    width: 54px;
+    height: 100%;
+
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+}
+#busking_time_contract_list .btcl_card_img_box {
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    overflow: hidden;
+
+    /* position: absolute;
+    margin-left: 15px;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+#busking_time_contract_list .btcl_card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#busking_time_contract_list .btcl_card {
+    float: left;
+    /* height: 77px; */
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border-left: 7px solid #8E83CE;
+    padding: 15px 15px 20px 15px;
+    width: 73%;
+}
+#busking_time_contract_list .btcl_card_top_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#busking_time_contract_list .btcl_card_title {
+    flex: 2;
+}
+#busking_time_contract_list .btcl_card_title p {
+    text-align: left;
+    font: normal normal bold 16px/23px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+#busking_time_contract_list .btcl_card_confirm {
+    flex: 1;
+}
+#busking_time_contract_list .btcl_card_confirm p {
+    text-align: right;
+    font: normal normal normal 14px/23px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #9999A5;
+}
+#busking_time_contract_list .btcl_card_time {
+    margin-top: 2px;
+    text-align: left;
+}
+#busking_time_contract_list .btcl_card_time p {
+    font: normal normal normal 14px/25px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+
+#busking_time_contract_list .btcl_card_contract {
+    margin-top: 10px;
+    text-align: left;
+}
+#busking_time_contract_list .btcl_card_contract p {
+    font: normal normal bold 14px/20px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #A8A8B7;
+}
+
+#busking_time_contract_list #header .ui-grid-b {
+    border-bottom: 1px solid #EAEAEA;
+}
+#busking_time_contract_list #btcl_year_select-button span {
+    font: normal normal bold 19px/21px SpoqaHanSans;
+}
+#busking_time_contract_list #btcl_month_select-button span {
+    font: normal normal bold 19px/21px SpoqaHanSans;
+}
+
+#busking_time_contract_list .btcl_end_perform {
+    float: right;
+}
+
+#busking_time_contract_list .btcl_end_perform p {
+    text-decoration: underline;
+    font: normal normal normal 14px/21px SpoqaHanSans;
+    color: #F76C4A;
+}
+/*21-03-11 추가*/
+#busking_time_contract_list .btcl_card_no_perform{
+    text-align: center;
+    font: normal normal normal 14px SpoqaHanSans;
+    /* letter-spacing: -1.4px; */
+    color: #999999;
+    opacity: 1;
+}

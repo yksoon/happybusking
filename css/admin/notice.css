@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+#aic_search{
+	width: 20%;
+    padding: 5px;
+    margin: 2% 0%;
+}
+
+.npc_write_btn{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 5px;
+    margin: 30px 0px;
+}
+
+.npc_write_btn:hover{
+	cursor: pointer;
+}
+
+.npc_table { 
+	width: 100%;
+	font-size: 11px;
+	border: 1px solid #7c7c7c;
+}
+
+.npc_table tr, .npc_table th{
+	border-bottom: 1px solid #e9e9e9;
+}
+
+.npc_table td{
+	text-align: center;
+}
+
+/* 작성 팝업부분 CSS */
+.npc_p_title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.npc_p_type{
+	width: 200px;
+    padding: 5px;
+}
+
+.npc_p_type option{
+	padding: 5px;
+}
+
+#nt_title, #ptitle{
+	width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#pcontent{
+	width: 100%;
+    height: 350px;
+    resize: none;
+}
+
+.npc_p_btn{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 5px;
+    margin: 30px 0px;
+}
+
+.npc_p_btn:hover{
+	cursor: pointer;
+}
+/* 상세내용 팝업부분 CSS */
+.aic_popup{
+	position: fixed;
+    width: 480px;
+    height: 730px;
+    top: 5%;
+    left: 10%;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+    box-shadow: 0px 4px 10px 7px #a2a2a2;
+}
+
+.aic_title{
+	text-align: left;
+    padding: 15px;
+    font-size: 17px;
+    border-bottom: 2px solid #d9d9d9d9;
+}
+
+#artist_name{
+	display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #9C27B0;
+}
+
+#aic_popup_close{
+	position: absolute;
+    bottom: 10%;
+    left: 45%;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#aic_table{
+	width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+}

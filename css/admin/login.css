@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.login_page_container{
+	margin-top: 5%;
+}
+
+.login_page_container input {
+    padding: 5px;
+}
+
+.lpc_success_btn{
+	display: inline-block;
+    font-size: 0.8em;
+    margin-left: 20px;
+    background-color: #9C27B0;
+    padding: 5px 15px;
+    color: #ffffff;
+}
+
+.lpc_success_btn:hover{
+	cursor: pointer;
+}

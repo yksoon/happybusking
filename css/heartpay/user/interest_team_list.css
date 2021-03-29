@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+
+#interest_team_list #under_line{
+	width: 100%;
+	height: 8px;
+	background-color: #eeeeee;
+}
+
+#interest_team_list #int_team_list_content{
+    padding: 15px;
+    height: 115px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#interest_team_list .int_tlc_image{
+	width: 33% !important;
+	height: 100%;
+}
+
+#interest_team_list .int_tlc_image img{
+	width: 100%;
+	height: 100%;	
+}
+
+#interest_team_list .int_tlc_content{
+	width: 60% !important;
+}
+
+#interest_team_list .int_tlc_content_box{
+	text-align: left;
+	padding-left: 15px;
+	line-height: 1.6;
+}
+
+#interest_team_list .int_tlc_cb_content{
+	width: 100%;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#interest_team_list #int_team_name{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	font-weight: bold;
+	margin-right: 5px;
+	width: auto !important;
+	max-width: 85%;
+}
+
+#interest_team_list .int_tlc_cbc_image{
+	width: 8% !important;
+	padding-top: 4px;
+	height: 24px;
+}
+
+#interest_team_list .int_tlc_cbc_count{
+	color: #333;
+	font-size: 13px;
+	margin-left: 2px;
+	padding-top: 2px;
+	width: auto !important;
+}
+
+#interest_team_list #int_team_member{
+	width: 100%;
+	font-size: 14px;
+	color: #888;
+	height: 3em;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	font-size:13px;
+}
+
+#interest_team_list #interest_alarm_btn{
+	width: 100% !important;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#interest_team_list #interest_alarm_on_body{
+	background-color: #8354c8;
+	width: 42%;
+	padding: 3px 2px;
+	border-radius: 4px;
+}
+
+#interest_team_list #interest_alarm_on_img{
+	width: 30%;
+	padding-left: 5px;
+}
+
+#interest_team_list #interest_alarm_on_img img{
+	width: 17px;
+	margin-top: 3px;
+}
+
+#interest_team_list #interest_alarm_on_text{
+	width: 70%;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 1px;
+	padding-left: 4px;
+}
+
+#interest_team_list #interest_alarm_off_body{
+	background-color: #888;
+	width: 47%;
+	border-radius: 4px;
+	padding: 3px 2px;
+}
+
+#interest_team_list #interest_alarm_off_img{
+	width: 25%;
+	padding-left: 5px;
+}
+
+#interest_team_list #interest_alarm_off_img img{
+	margin-top: 3px;
+	width: 17px;
+}
+
+#interest_team_list #interest_alarm_off_text{
+	width: 70%;
+	color: #fff;
+	font-size: 12px;
+	margin-top: 1px;
+	padding-left: 4px;
+}
+
+#interest_team_list .int_tlc_btn{
+	width: 7% !important;
+	height: 100%;
+	text-align: right;
+	padding-top: 15%;
+}
+
+#interest_team_list .int_tlc_btn img{
+	width: 60%;
+}

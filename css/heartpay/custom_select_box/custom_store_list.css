@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+.hidden {height:100%; min-height:100%; overflow:hidden !important; touch-action:none;}
+#custom_sl_popup{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+    display: none;
+    border: none !important;
+}
+#store_list_pop {
+    letter-spacing: -0.5px;
+}
+#store_list_pop .slp_body {
+	width: 100%;
+    height: 100%;
+}
+
+#store_list_pop .slp_body_content {
+    height: 294px;
+    width: 244px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 20px #0000001A;
+    opacity: 1;
+    padding: 18px;
+    margin-bottom: 54;
+    overflow: scroll;
+    border-radius: 10px;
+
+    position: absolute;
+    
+    /* position : absolute한 btn-area가 텍스트를 가리므로 아래로 밀어냄 */
+    z-index: 1;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: auto;
+}
+
+#store_list_pop .slp_close {
+    width: 100%;
+    text-align: right;
+}
+#store_list_pop .slp_close_btn {
+    width: 12px;
+    height: 12px;
+}
+
+#store_list_pop .slp_title {
+    width: 100%;
+    text-align: center;
+
+    margin-top: 24px;
+}
+#store_list_pop .slp_title p {
+    font: normal normal bold 21px/30px SpoqaHanSans;
+    color: #333333;
+}
+
+#store_list_pop .slp_message {
+    width: 100%;
+    text-align: center;
+
+    margin-top: 20px;
+}
+#store_list_pop .slp_message p {
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #7C7F83;
+}
+
+#store_list_pop .slp_confirm_btn_container {
+    margin-top: 28px;
+    width: 100%;
+
+    text-align: center;
+}
+#store_list_pop .slp_confirm_btn {
+    width: 222px;
+    height: 55px;
+
+    display: inline-block;
+
+    background: #8354C8 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+
+    text-align: center;
+    font: normal normal bold 15px/55px SpoqaHanSans;
+    color: #FFFFFF;
+}
+
+#store_list_pop .slp_cancel_btn_container {
+    margin-top: 20px;
+    width: 100%;
+
+    text-align: center;
+}
+#store_list_pop .slp_cancel_btn {
+    width: 45px;
+    height: 21px;
+
+    display: inline-block;
+
+    text-align: center;
+    font: normal normal normal 14px/21px SpoqaHanSans;
+    color: #B9C0C7;
+}

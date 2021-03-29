@@ -1,0 +1,490 @@
+@CHARSET "UTF-8";
+
+#detail_store_busking  *{
+    letter-spacing:-0.5px;
+}
+/* 버스킹존 상세페이지 이미지 슬라이드부분 CSS */
+#detail_store_busking #bdc_pfsc_ing_body{
+	overflow: hidden;
+	height: 295px;
+}
+
+#detail_store_busking #bdc_pfsc_ing_body ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#detail_store_busking #bdc_pfsc_ing_body li{
+	float: left;
+}
+
+/* 버스킹존 상세페이지 이미지 슬라이드 버튼부분 CSS */
+#detail_store_busking #detail_store_content{
+	position: relative;
+}
+
+#detail_store_busking #bdc_img_selecter {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    width: 34px;
+    height: 19px;
+    opacity: 0.52;
+}
+
+#detail_store_busking #bdc_img_selecter li {
+	display: inline-block;
+    float: left;
+    font-size: 9px;
+    margin-left: 5px;
+    color: #d4d4d482;
+    border-radius: 5em;
+    display:none;
+}
+
+#detail_store_busking #bdc_img_selecter li:first-child {
+    margin-left: 0px;
+}
+
+#detail_store_busking .bdc_img_active{
+    color: #FFFFFF !important;
+    display:block !important;
+    margin-left: 8px !important;
+    line-height: 18px !important;
+}
+
+#detail_store_busking .store_dt1_img_list{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#detail_store_busking .store_dtl_title{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black; */
+
+}
+#detail_store_busking .store_dtl_title_j{
+    float: left;
+    width: 57%;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: 4%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#detail_store_busking .store_dtl_title_j_s{
+    text-align: left;
+    text-shadow: none !important;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+    color: #888
+}
+#detail_store_busking .store_dtl_title_j_b{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 21px;
+    font-weight: bold;
+    color: #333333;
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+#detail_store_busking .store_dtl_title_but{
+    width: 89px;
+    height: 37px;
+    margin-top: 5.2%;
+    margin-right: 15px;
+    border: 1px solid #8354C8;
+    border-radius: 38px;
+    float: right;
+    color:#8354C8;;
+    font: normal normal normal 14px SpoqaHanSans;
+
+}
+
+#detail_store_busking .store_dtl_sub_title{
+    width: 100%;
+    left: 30px;
+    text-align: left;
+    font: normal normal bold 15px SpoqaHanSans;
+    letter-spacing:0.5px;
+    color: #333333;
+    opacity: 1;
+    /* border: 1px solid black; */
+}
+#detail_store_busking .store_dtl_introduce{
+    width: 100%;
+    margin-top: 2%;
+    /* border: 1px solid black; */
+    height: 390px;
+    margin-bottom: 10%;
+}
+#detail_store_busking .store_dtl_introduce_m{
+    width: 100%;
+    margin-top: 2%;
+    /* border: 1px solid black; */
+    height: 280px;
+}
+
+#detail_store_busking .store_dtl_introduce_t{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-align: left;
+    opacity: 1;
+    /* border: 1px solid black; */
+}
+#detail_store_busking .store_dtl_introduce_c{
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    padding-top: 1%;
+    height: 300px;
+    margin-left: 4%;
+    margin-right: 17%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#detail_store_busking .store_dtl_introduce_c_aa{
+        
+        float: left;
+        width:100%;
+        text-align: left;
+        font: normal normal normal 14px SpoqaHanSans;
+        letter-spacing: -1.4px;
+        color: #7B7D88;
+        opacity: 1;
+        margin-top: 5px;
+}
+#detail_store_busking .store_dtl_introduce_c_bb{
+       
+        float: right;
+        width:73%;
+        margin-top: 5px;
+        text-align: left;
+        font: normal normal normal 14px SpoqaHanSans;
+        letter-spacing: -1.4px;
+        color: #333333;
+        opacity: 1;
+}
+#detail_store_busking .store_dtl_introduce_c_a{
+        
+        float: left;
+        width:25%;
+        height: 20px;
+        text-align: left;
+        font: normal normal normal 14px SpoqaHanSans;
+        letter-spacing: -1.4px;
+        color: #7B7D88;
+        opacity: 1;
+        margin-top: 5px;
+    }
+#detail_store_busking .store_dtl_introduce_c_b{
+   
+    float: right;
+     width:73%;
+     height: 20px;
+     margin-top: 5px;
+     text-align: left;
+     font: normal normal normal 14px SpoqaHanSans;
+     letter-spacing: -1.4px;
+     color: #333333;
+     opacity: 1;
+    }
+
+
+#detail_store_busking .store_dtl_kupon{
+    height: 320px;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    /* border: 1px solid black; */
+
+}
+#detail_store_busking .store_dtl_introduce_k{
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 4%;
+    margin-left: 4%;
+    padding-top: 5%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+#detail_store_busking .store_dtl_kupon_c{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 6%;
+    height: 120px;
+    border: 2px solid #D9DBEB;
+
+}
+#detail_store_busking .store_dtl_kupon_c_d{
+    
+    text-align: left;
+    width: 69%;
+    height: 120px;
+    float: left;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+#detail_store_busking .store_dtl_kupon_c_d_m{
+    
+    font: normal normal bold 23px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #333333;
+    margin-left: 8%;
+
+}
+#detail_store_busking .store_dtl_kupon_c_d_n{
+    font: normal normal normal 14px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #666666;
+    margin-left: 8%;
+}
+#detail_store_busking .store_dtl_kupon_c_d_d{
+    font: normal normal normal 12px SpoqaHanSans;
+    letter-spacing: 0.5px;
+    color: #999999;
+    margin-left: 8%;
+}
+#detail_store_busking .store_dtl_kupon_c_t{
+    font: normal normal normal 14px SpoqaHanSans;
+    color: #8354C8;
+    text-align: center;
+    line-height:120px;
+    width: 30%;
+    height: 120px;
+    float: right;
+    border-left: 2px solid #D9DBEB;
+    background: #F0EFF7 0% 0% no-repeat padding-box;
+}
+#detail_store_busking .store_dtl_kupon_f{
+
+    text-align: center;
+    font: normal normal bold 15px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #7A7895;
+    line-height:50px;
+    height: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    
+    border: 2px solid #E2E1EF;
+    border-radius: 10px;
+    opacity: 1;
+}
+#detail_store_busking .store_dtl_butten{
+    
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color:#333333;
+    line-height:60px;
+    height: 60px;
+    float: left;
+    
+}
+#detail_store_busking .store_dtl_butten_a{
+    
+    width: 50%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    
+    background: #F0F1F4 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color:#333333;
+    line-height:60px;
+    height: 60px;
+    float: left;
+    opacity: 1;
+}
+#detail_store_busking .store_dtl_butten_b{
+    
+    width: 50%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    
+    background: #8354C8 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    line-height:60px;
+    height: 60px;
+    float: right;
+    opacity: 1;
+}
+#detail_store_busking #store_title_img{
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid#8354C8;
+}
+#detail_store_busking #store_menu_imgs{
+    margin-top: 15px;
+}
+#detail_store_busking #stroe_menu_img{
+    border-radius: 10%;
+    padding: 5px;
+    margin-bottom: 10%;
+}
+/* 버스킹존 상세페이지 지도부분 CSS */
+#detail_store_busking .bdc_map_div {
+    width: 100%;
+    height: 350px;
+}
+#detail_store_busking .bdc_map_div img{
+	width: 100%;
+	height: 100%;
+}
+#detail_store_busking #map{
+    z-index: 0;
+    width: 92%;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+#detail_store_busking .detail_store_addr{
+    width: 100%;
+}
+#detail_store_busking .detail_store_addr_th{
+    text-align: left;
+    font: normal normal normal 14px SpoqaHanSans;
+    color: #999999;
+    opacity: 1;
+    width: 49px;
+}
+#detail_store_busking .detail_store_addr_td{
+    text-align: left;
+    font: normal normal normal 14px SpoqaHanSans;
+    color: #333333;
+    opacity: 1;
+}
+#detail_store_busking .detail_getdirection_btn{
+    width: 325px;
+    height: 52px;
+    background: #8354C8 0% 0% no-repeat padding-box;
+    border-radius: 52px;
+    text-align: center;
+    font: normal normal bold 15px SpoqaHanSans;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    margin-top: 27px;
+    opacity: 1;
+
+}
+#detail_store_busking .store_menu_line{
+    height: 10px;
+    background: #F9F9FB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#detail_store_busking #bdc_img_selecter_cunt{
+    text-align: center;
+    font: normal normal normal 10px SpoqaHanSans;
+    color: #FFFFFF;
+}
+#detail_store_busking .haeder_menu_div_base span {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 15px;
+        /* color: #333; */
+        color: #AEB1BF;
+        /* text-decoration: underline; */
+        /* font-weight: bold; */
+        display: block;
+        line-height: 0.9;
+        opacity: 1;
+}
+#detail_store_busking .common_header_backbtn{
+    padding-left: 20px;
+    padding-top: 13px;
+    width: 35px;
+    height: 35px;
+    /* float: left; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#detail_store_busking .store_dtl_butten_artist{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    background: #8354C8 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    line-height: 60px;
+    height: 60px;
+    float: right;
+    opacity: 1;
+}
+#detail_store_busking .store_dtl_butten_artist_m_one{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    bottom: 0;
+    background: #3E3F4B 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px SpoqaHanSans;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    line-height: 60px;
+    height: 60px;
+    float: right;
+    opacity: 1;
+}
+#detail_store_busking .store_dtl_title_but_text{
+    padding: 7px;
+}
+#detail_store_busking .bdc_image_div{
+    box-shadow: inset 0px -63px 102px 3px rgb(0 0 0 / 45%);
+}
+#detail_store_busking .store_dtl_st_img{
+    z-index: -1;
+    position: relative;
+}    
+#detail_store_busking .bdc_pfsc_text{
+    position: absolute;
+    top: 14px;
+    left: 42%;
+    font: normal normal normal 15px NanumSquare;
+    letter-spacing: -0.75px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    z-index: 1;
+}

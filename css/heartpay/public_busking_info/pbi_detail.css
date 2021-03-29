@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+/* 이미지 클릭시 자세히보기 팝업 */
+.pbi_image_popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 90vw;
+}
+/* *********************** */
+
+#pbi_detail .pbi_ds_img {
+    height: 350px;
+}
+
+#pbi_detail .pbi_ds_img img {
+   	width: 100%;
+    height: 100%;
+}
+
+#pbi_detail .pbi_ds_title{
+	padding: 15px 15px;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: -0.25px;
+	font-size: 18px;
+}
+
+#pbi_detail .pbi_ds_content {
+    padding: 20px 10px 20px 10px;
+    background-color: #f7f7f9;
+    letter-spacing: -1px;
+    margin: 0px 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#pbi_detail .pbi_ds_content .ui-block-a {
+    width: 22% !important;
+    text-align: left;
+}
+
+#pbi_detail .pbi_ds_content .ui-block-a p{
+	display: inline-block;
+	font-size: 12px;
+	margin-bottom: 8px;
+	padding: 1px 6px;
+	width: 44px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+#pbi_detail .pbi_dsc_title_1{
+	background-color: #ffffff;
+	border: 1px solid #ededf5;
+	color: #8a8b98;
+	font-weight: bold;
+}
+
+#pbi_detail .pbi_dsc_title_2{
+	margin-top: 20px;
+	margin-bottom: 10px !important;
+	font-size: 16px !important;
+	width: 60px !important;
+	padding-left: 0px !important;
+	font-weight: bold;
+	color: #595959;
+}
+
+#pbi_detail .pbi_ds_content .ui-block-b {
+	width: 77% !important;
+	font-size: 14px;
+	text-align: left;
+	/* padding-top: 3px; */
+	margin-bottom: 12px;
+	color: #595959;
+}
+
+#pbi_detail #pbi_ds_detail_content{
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	clear: both;
+	line-height: 22px;
+	color: #595959;
+	padding-left: 5px;
+}
+
+#pbi_detail #pbi_ds_map{
+	height: 230px;
+}

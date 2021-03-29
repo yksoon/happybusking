@@ -1,0 +1,543 @@
+@CHARSET "UTF-8";
+/* 장비공유 상세페이지 이미지 슬라이드부분 CSS */
+#share_item_detail #sid_pfsc_ing_body{
+	overflow: hidden;
+	height: 345px;
+}
+
+#share_item_detail #sid_pfsc_ing_body ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#share_item_detail #sid_pfsc_ing_body li{
+	float: left;
+	padding: 10px;
+}
+
+#share_item_detail .sid_image_div{
+}
+
+/* 장비공유 상세페이지 이미지 슬라이드 버튼부분 CSS */
+#share_item_detail #share_item_detail_sec{
+	position: relative;
+}
+
+#share_item_detail #sid_img_selecter {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#share_item_detail #sid_img_selecter li {
+    display: inline-block;
+    float: left;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #d4d4d4;
+    border-radius: 5em;
+}
+
+#share_item_detail #sid_img_selecter li:first-child {
+    margin-left: 0px;
+}
+
+#share_item_detail .sid_img_active{
+	color: #8354c8 !important;
+}
+
+/* 장비공유 상세페이지 content 부분 CSS */
+#share_item_detail .sid_box{
+	padding: 15px 10px;
+	position: relative;
+}
+	
+#share_item_detail .sid_product_info{
+	padding: 5px;
+	text-align: left;
+}
+
+#share_item_detail .sid_product_info .fa-user{
+	font-size: 10px !important;
+	color: #9a9a9a !important;
+	margin-right: 5px !important;
+	padding-bottom: 10px;
+}
+
+#share_item_detail .sid_user_name{
+	margin-bottom: 3px;
+	text-align: left;
+	font-size: 10px;
+	color: #9a9a9a;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+#share_item_detail .sid_user_name i{
+	margin:0px 5px 0px 3px;
+}
+
+#share_item_detail #si_del_btn{
+    text-align: left;
+    font-size: 11px;
+    color: #9a9a9a;
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: underline;
+    display: none;
+}
+
+#share_item_detail .uba_pn_p{
+	letter-spacing: -1px;
+	font-size: 18px;
+	text-align: left;
+	/* padding-bottom: 5px; */
+}
+
+#share_item_detail .sid_p_price{
+    /* margin-bottom: 5px; */
+    position: relative;
+    /* padding-top: 5px; */
+}
+
+#share_item_detail .product_rank{
+ 	width: 7% !important;
+ 	color: #333;
+ 	font-size: 11px;
+ 	margin-top: 7px;
+ 	text-align: left;
+ }
+ 
+#share_item_detail .product_period {
+    margin-top: 7px;
+    width: auto !important;
+    display: inline-block;
+    margin-right: 5px;
+    color: #333;
+    font-size: 12px;
+}
+
+#share_item_detail .product_price{
+	font-size: 19px;
+	color: #333;
+	padding-top: 3px;
+}
+
+#share_item_detail .product_price .won{
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#share_item_detail .product_price .question{
+	color: #9a9a9a;
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	right: 115px;
+	margin-right: 35px;
+	margin-bottom: 16px;
+}
+ 
+
+#share_item_detail .post .ui-block-a{
+	width: auto !important;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#share_item_detail .ontheway{
+	text-align: left;
+	color: #03a9f4;
+	font-size: 9px;
+	border: 1px solid #03a9f4;
+	width: auto !important;
+	padding: 1px 4px;
+	display: inline-block;
+	border-radius: 4px;
+	margin-top: 1px;
+}
+
+#share_item_detail .location{
+    font-size: 11px;
+    margin-top: 3px !important;
+    color: #888;
+    text-align: left;
+    padding-left: 3px;
+    /* padding-left:13px; */
+}
+
+#share_item_detail .sid_click_bar{
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    color: #888;
+    border-top: 1px solid #eee;
+    padding-top: 14px;
+	margin: 15px;
+}
+
+#share_item_detail .content ,.phone, .reply{
+    /* padding: 10px !important; */
+    text-align:center !important;
+}
+
+#share_item_detail .active span{
+	border-bottom: 1px solid #333 !important;
+	font-size: 14px;
+	display: inline-block;
+	padding-bottom: 10px;
+	color: #333 !important;
+}
+
+#share_item_detail .sid_info_box{
+ 	padding: 15px 15px;
+ }
+
+#share_item_detail .sid_ib_equip_info{
+	padding: 10px 0px;
+}
+
+#share_item_detail .sid_ib_equip_info p{
+    text-align: left;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.4;
+}
+
+#share_item_detail .sid_ib_ei_warning{
+ 	margin-top:20px;
+ 	padding: 10px 10px;
+ 	background-color: #f1f2f6;
+ 
+ }
+ 
+#share_item_detail .sid_ib_ei_warning_top{
+ 	font-size: 10px;
+ }
+ 
+#share_item_detail .sid_ib_ei_warning p{
+ 	font-size: 12px;
+	color:#888;
+ }
+ 
+ 
+/* 물품공유 상세페이지 도움말 팝업부분 CSS */
+#share_item_detail .sid_help_popup {
+    position: absolute;
+    background: #101010;
+    color: #ffffff;
+    font-size: 9px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    right: 19px;
+    top: 60px;
+    z-index: 2;
+    box-shadow: 2px 2px 10px #959595;
+    display: none;
+}
+
+/* reply CSS */
+
+.sid_reply1 .ui-input-text{
+	margin: 0px !important;
+	border: none;
+    border-bottom: 0.1px solid #e8e8e8;
+}
+
+.sid_reply1{
+    border-radius: 0px !important;
+	font-size: 13px;
+}
+
+.sid_reply .ui-input-text{
+	margin: 0px !important;
+}
+
+.sid_reply {
+    margin: 0px !important;
+    border-radius: 0px !important;
+    padding: 30px 15px 15px 15px;
+}
+
+.sid_reply a {
+	color: #000000 !important;
+}
+
+.sid_re_total_container{
+	padding-left: 17px;
+	text-align: left;
+	font-size: 13px;
+	
+	color: #0c0c0c;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.sid_re_total_container a{
+	color: #000 !important;
+}
+
+.title_re{
+    font-size: 15px;
+	text-align: left;
+	margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* input 부분 */
+.sid_re_re_cnt{
+    font-size: 12px;
+}
+
+.sid_uil_inputdiv .ui-input-text{
+	border-radius: 0em;
+    padding: 3px;
+    width: 95%;
+}
+
+/* input이랑 input 버튼 */
+.sid_reply .sid_ui1_inputbox {
+    margin-bottom: 10px;
+}
+
+.sid_reply #sid_re_insertbtn{
+    font-size: 14px;
+    padding: 10px 0px;
+    border-radius: 0em;
+    /* color: #000000; */
+}
+
+.sid_reply #sid_re_insertbtn img{
+	width:35%;
+	opacity:0.5;
+	
+}
+
+.sid_reply .sid_uil_inputdiv {
+    width: 85% !important;
+}
+
+.sid_reply .sid_ui1_btn {
+    width: 15% !important;
+    background-color: #eee !important;
+    border: 1px solid #e5e5e5;
+}
+
+
+.sid_ui1_input{
+	font-size: 14px;
+	padding: 11px 0px;
+	background-color: #8354c8;
+	color: #ffffff;
+}
+
+
+.sid_reply1 #sid_re_re_input_btn{
+	width: 20% !important;
+	color: #000000 !important;
+	background-color: #ffffff;
+	font-weight: 900;
+	line-height: 3;
+	text-align: center;
+	text-decoration:underline;
+}
+
+/* 끝 */
+
+.sid_re_re_d_btn{
+	padding: 3px 10px !important;
+    border: 0.5px solid #e9e9e9;
+    text-align: center;
+    border-radius: 50px;
+    float: right;
+    color: #7c7c7c;
+}
+.sid_re_total{
+	text-align: left;
+}
+
+.sid_re_container{
+    text-align: left;
+}
+
+.sid_re_container .sid_re_body{
+	/*
+	padding: 15px;
+	border-bottom: 1px solid #eeeeee;
+	background-color: #fbfbfb;
+	*/
+	padding: 20px 15px 15px 0px;
+    border-top: 1px solid #eee;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sid_re_container a, .sid_re_re_container a{
+	font-weight: normal;
+}
+
+.sid_re_container span, .sid_re_re_container span{
+	font-size: 11px;
+	color: #898989;
+}
+
+.sid_re_name, .sid_re_date, .sid_re_re_cnt{
+	color: #7c7c7c !important;
+}
+
+.sid_re_re_btn{
+	border-bottom: 1px solid #000000;
+	font-size: 11px;
+    margin-left: 15px;
+    color: purple;
+}
+
+.sid_re_title{
+	margin-bottom: 12px;
+	font-size: 14px;
+	color: #0c0c0c;
+}
+
+.sid_re_re_container{
+	text-align: left;
+	padding: 18px 17px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.sid_re_re{
+    margin-bottom: 15px;
+    margin-left: 3px;
+    font-size: 13px;
+    color: #0c0c0c;
+}
+
+.sid_re_re a{
+	font-size: 11px;
+	float: right;
+	border-bottom: 1px solid #898989;
+	margin-right: 5px;
+	color: #898989 !important;
+}
+
+.sid_re_re_detail{
+	margin-left: 20px;
+}
+.sid_re_re_name{
+	border-right; 1px solid #7c7c7c;
+	padding-right: 3px;
+    margin-right: 3px;
+    color: #7c7c7c !important;
+}
+
+.sid_re_name{
+	border-right: 1px solid #7c7c7c;
+	padding-right: 3px;
+    margin-right: 3px;
+}
+/* viewmore div */
+.sid_reply_viewmroe{
+	border-top: 5px solid #efefef;
+	border-bottom: 5px solid #efefef;	
+}
+
+.sid_reply_viewmore{
+	padding: 15px;
+	height: 80px;
+	border-top: 5px solid #eee;
+}
+
+.sid_r_vm_btn{
+	font-size: 11px;
+    margin: auto;
+    width: 69px;
+    border: 1px solid #eee;
+    border-radius: 55px;
+    color: #888;
+    padding: 5px 8px;
+}
+
+
+.sid_reply1 .sid_re_info_name {
+    width: 47% !important;
+    font-size: 11px;
+    color: #888;
+    
+}
+
+.sid_reply1 .sid_re_info_rebtn {
+    width: 23% !important;
+    text-decoration: underline;
+    color: #888;
+   
+    font-size: 11px;
+    padding-left:10px;
+}
+
+.sid_reply1 .sid_re_info_delbtn_div {
+    width: 30% !important;
+    text-align: right;
+}
+
+.sid_reply1 .sid_re_del_btn {
+    display: inline-block;
+    color: #898989;
+    border: 1px solid #d9d9d9;
+    padding: 2px 20px 2px 10px;
+    border-radius: 50px;
+    font-size: 12px;
+    position: relative;
+}
+
+.sid_reply1 .sid_re_del_btn img {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+}
+
+
+.sid_reply1 .sid_re_re_inputbox {
+    padding: 15px;
+}
+
+.sid_reply1 .sid_re_re_inputdiv {
+    width: 80% !important;
+}
+
+.sid_reply1 .sid_re_re_input {
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 0px !important;
+    width: 90%;
+}
+
+.sid_reply1 .sid_re_re_body{
+	display: none;
+}
+
+.sid_reply1 .sid_zero_count_text{
+	margin: 15px 0px;
+}
+
+.hide{
+	display: none;
+}
+
+#share_item_detail .sid_phone_div{
+	text-align:left;
+	font-size:14px;
+	color:#333;
+}

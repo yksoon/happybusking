@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+/* 아티스트정보 사진/동영상 탭 헤더부분 CSS */
+#team_info .tmi_middle_container{
+	padding: 5px 15px 0px 0px;
+	text-align: left;
+	font-size: 14px;
+	background-color: #ffffff;
+	/* border-bottom: 1px solid #eeeeee; */
+}
+
+#team_info .tmi_middle_title {
+    display: inline-block;
+    color: #9e9e9e;
+    padding: 8px 0px;
+    text-decoration: underline;
+    padding-bottom: 12px;
+    font-weight: bold;
+    /* border: 1px solid #c7c7c7; */
+    border-bottom: none;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    /* border-top-left-radius: 5px; */
+    /* border-top-right-radius: 10px; */
+}
+
+#team_info .tmi_middel_select{
+	/* background-color: #8354c8; */
+	/* border: 1px solid #8354c8 !important; */
+	border-bottom: none !important;
+	/* border-top-left-radius: 5px; */
+	/* border-top-right-radius: 10px; */
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#team_info .tmi_middle_title:last-child {
+    border-left: none;
+}
+
+#team_info .tmi_middle_title:first-child {
+    border-right: none;
+}
+
+
+/* 아티스트정보 사진/동영상 탭 사진 list부분 CSS */
+#team_info .tmi_picture_list{
+    padding: 10px;
+    background-color: #f6f6f6;
+    padding-top: 0;
+}
+
+#team_info .tmi_picture_content {
+    padding: 5px;
+    height: auto;
+    float: left;
+    padding-top: 0;
+}
+
+#team_info .tmi_picture_content img {
+	width: 100%;
+	max-height: 190px;
+	margin-top: 15px;
+	box-shadow: 0px 10px 14px -10px #868994;
+}
+
+
+/* 아티스트정보 사진/동영상 탭 동영상 list부분 CSS */
+#team_info .tmi_video_list{
+	background-color: #f6f6f6;
+	padding: 18px 10px;
+}
+
+#team_info .tmi_video_content{
+	position: relative;
+	height: 200px;
+	background-color: #ffffff;
+	margin: 1.5%;
+	margin-bottom: 15px;
+	width: 47% !important;
+	box-shadow: 0px 10px 14px -10px #d7d8dc;
+}
+
+#team_info .tmi_video_play {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    top: 10%;
+    left: 0;
+    z-index: 3;
+}
+
+#team_info .tmi_thumnail{
+	width: 100%;
+    height: 70%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#team_info .tmi_video_text{
+	width: 90%;
+	height: 15%;
+	font-size: 14px;
+	/* text-indent: 5px; */
+	padding: 5% 5%;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.4;
+	letter-spacing: -1px;
+}

@@ -1,0 +1,282 @@
+@CHARSET "UTF-8";
+/* 아티스트정보, 공연정보 페이지 팀 정보부분 공통 CSS */
+.team_intro_image{
+	width: 100% !important;
+    height: 220px;
+    border: 0;
+    font-size: 16px !important;
+    color: white;
+    box-shadow: inset 0px -63px 102px 3px rgba(0,0,0,0.45);
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+} 
+
+.team_intro_container{
+	text-align: left;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+.tic_name_text{
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 22px;
+	padding: 0px 10px 3px 10px;
+	max-width: 60%;
+	font-weight: bold;
+	display: flex;
+}
+
+.pf-more {
+    width: 21px;
+    height: 21px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.tic_name_text span {
+    color: #8354c8;
+    border: 1px solid #8354c8;
+    background-color: #ffffff;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+    height: 15px;
+    line-height: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.tic_text_container{
+	font-size: 11px;
+	padding: 0px 10px;
+	opacity: 0.85;
+}
+
+
+.tic_genre_text{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	max-width: 50%;
+}
+
+.interest_icon_btn{
+	position: absolute;
+	bottom: 14px;
+	right: 65px;
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 5em;
+	font-size: 12px;
+	width: 46px;
+}
+
+.tic_interest_image{
+	width: 50% !important;
+}
+
+.tic_interest_icon{
+	width: 26px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.tic_interest_count{
+	width: 50% !important;
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	left: 27px;
+	top: 10px;
+}
+
+.support_test_btn{
+    position: absolute;
+    bottom: 9px;
+    right: 10px;
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 5em;
+    font-size: 12px;
+    width: 47px;
+}
+
+/* /////////////////////////////// */
+
+#audienc_pannel a{
+	color: black;
+}
+
+#team_search{
+	width: 100%;
+}
+
+#team_search .ui-block-a{
+	width: 75%;
+}
+
+#team_search .ui-block-b{
+	width: 25%;
+	margin-top: 3px;
+} 
+
+#team_search .ui-block-b a{
+	display: block;
+}
+
+#login_popup .ui-block-a a{
+	display: block;
+}
+/* } */
+
+#login_popup .ui-block-b a{
+	display: block;
+}
+
+
+/* 관심 아티스트 알람 설정 팝업 */
+.ia_popup{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+	display: none;
+}
+
+.ia_popup_wapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    text-align: center;
+    width: 300px;
+    padding-top: 50px;
+}
+
+.ia_popup_wapper img {
+    width: 20px;
+}
+
+.iap_text_a {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.iap_text_b {
+    color: #a4a4a4;
+    font-size: 15px;
+}
+
+.ia_alarm_btn_container {
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.iabtn {
+    height: 100%;
+}
+
+#int_alarm_okBtn {
+    background-color: #8d5cb1;
+    width: 65%;
+}
+
+#int_alarm_noBtn {
+    background-color: #a4a4a4;
+    width: 35%;
+}
+
+/* 아티스트정보 -> 서브메뉴 버튼 */
+#popup_mask2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 8888;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+	width: 100%;
+    height: 100%;
+}
+
+#team_info #icon_show_btn{
+	position: fixed;
+    bottom: 15%;
+    right: 1%;
+    width: 60px;
+    opacity: 0.9;
+	z-index: 1000;
+}
+
+
+#team_info #icon_show_video{
+	position: fixed;
+    bottom: 21%;
+    right: 1%;
+    width: 60px;
+    opacity: 0.9;
+	z-index: 1000;
+	display: none;
+}
+
+
+#team_info #team_info_submenu{
+	position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    text-align: right;
+}
+
+#team_info #icon_hide_btn{
+	position: fixed;
+    bottom: 15%;
+    right: 1%;
+    width: 60px;
+    opacity: 1;
+}
+
+#team_info_submenu .ui-grid-a{
+	color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+}
+
+#team_info_submenu .ui-block-a{
+	line-height: 4;
+	width: 80% !important;
+}
+
+#team_info_submenu .ui-block-b{
+	height: 65px;
+	width: 20% !important;
+}
+
+#moremovie_btn{
+	text-decoration: none !important;
+}
+
+.no_moremovie{
+	background-color: #b7b7b7 !important;
+}

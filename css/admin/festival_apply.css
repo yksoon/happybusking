@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+.kac_table {
+    table-layout: fixed;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.kac_table tr{
+	height: 65px;
+}
+
+.kac_btn_container {
+    background-color: #000000;
+    padding: 5px;
+    text-align: center;
+}
+
+.kac_btn {
+    display: inline-block;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 2px 5px;
+    font-size: 14px;
+    letter-spacing: -1px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.kac_popup_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.kac_popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    width: 50vw;
+    height: 88vh;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    padding: 15px;
+    display: none;
+}
+
+.kacp_title {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.kacp_content {
+    font-size: 16px;
+}
+
+
+
+.kac_festival_change_popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    width: 50vw;
+    height: 88vh;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    padding: 15px;
+    display: none;
+}
+
+#kac_fcp {
+    margin: 0 auto;
+}
+
+#kac_fcp td, #kac_fcp th {
+    min-width: 170px;
+    text-align: center;
+}
+
+#kac_fcp td {
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+.kac_festival_insert_popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    width: 30vw;
+    height: 20vh;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    padding: 15px;
+    display: none;
+}
+
+#kac_fip {
+    margin: 0 auto;
+}
+
+#kac_fip tr {
+    line-height: 3;
+}
+
+#kac_fip th {
+    font-size: 15px;
+}
+
+#kac_fip input {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.kac_fip_btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}

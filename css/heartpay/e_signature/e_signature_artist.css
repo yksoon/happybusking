@@ -1,0 +1,359 @@
+@charset "UTF-8";
+#e_signature_artist {
+    overflow: auto;
+}
+#e_signature_artist *{
+    letter-spacing:-0.5px;
+}
+
+#e_signature_artist .esa_auth_container {
+    margin-top: 20px;
+}
+#e_signature_artist .esa_auth_title {
+    text-align: left;
+}
+#e_signature_artist .esa_auth_title p{
+    font: normal normal bold 16px/24px SpoqaHanSans;
+    color: #333333;
+}
+
+
+#e_signature_artist .esa_name_container {
+    margin-top: 15px;
+}
+#e_signature_artist .esa_name_title {
+    text-align: left;
+}
+#e_signature_artist .esa_mini_title p {
+    font: normal normal bold 12px/18px SpoqaHanSans;
+    color: #666666;
+}
+
+#e_signature_artist .esa_name_input_container {
+    margin-top: 6px;
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+#e_signature_artist .esa_name_input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1EB;
+    border-radius: 2px;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0px 10px 0px 10px;
+
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+}
+
+
+#e_signature_artist .esa_registration_num_container {
+    margin-top: 20px;
+}
+#e_signature_artist .esa_registration_num_title {
+    text-align: left;
+}
+#e_signature_artist .esa_registration_num {
+    margin-top: 6px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+#e_signature_artist .esa_registration_num_input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1EB;
+    border-radius: 2px;
+
+    padding-left: 10px;
+
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+
+    height: 100%;
+}
+#e_signature_artist .esa_registration_num_first {
+    width: 45%;
+}
+#e_signature_artist .esa_registration_num_sec {
+    width: 45%;
+}
+#e_signature_artist .esa_registration_hipen {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+}
+
+
+#e_signature_artist .esa_adress_container {
+    margin-top: 20px;
+}
+#e_signature_artist .esa_adress_title {
+    text-align: left;
+}
+#e_signature_artist .esa_adress_1_container {
+    margin-top: 6px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#e_signature_artist .esa_post_no {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCE0EA;
+    border-radius: 2px;
+
+    padding-left: 10px;
+
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+
+    height: 100%;
+
+    width: 75%;
+}
+#e_signature_artist .esa_search_adress {
+    margin-left: 5px;
+    width: 70px;
+    height: 38px;
+
+    background: #F6F6F8 0% 0% no-repeat padding-box;
+    border: 1px solid #8354C8;
+    border-radius: 2px;
+
+    font: normal normal bold 12px/40px SpoqaHanSans;
+    color: #8354C8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#e_signature_artist .esa_adress_2_container {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+#e_signature_artist .esa_adress {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCE0EA;
+    border-radius: 2px;
+
+    padding-left: 10px;
+
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+
+    height: 100%;
+    width: 100%;
+}
+
+#e_signature_artist .esa_perform_container {
+    margin-top: 30px;
+}
+#e_signature_artist .esa_perform_date_container {
+    margin-top: 15px;
+}
+#e_signature_artist .esa_perform_date_title {
+    text-align: left;
+}
+#e_signature_artist .esa_perform_date_input_container {
+    margin-top: 6px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+#e_signature_artist .esa_perform_date {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCE0EA;
+    border-radius: 2px;
+
+    padding-left: 10px;
+
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+
+    height: 100%;
+    width: 100%;
+}
+
+#e_signature_artist .esa_perform_time_container {
+    margin-top: 20px;
+}
+#e_signature_artist .esa_perform_time_title {
+    text-align: left;
+}
+
+#e_signature_artist .esa_perform_time_input_container {
+    margin-top: 6px;
+
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+}
+#e_signature_artist .esa_perform_time {
+    width: 20%;
+    height: 100%;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCE0EA;
+    border-radius: 2px;
+
+    padding-left: 10px;
+
+    font: normal normal normal 14px/20px SpoqaHanSans;
+    color: #333333;
+}
+#e_signature_artist .esa_perform_time_hipen {
+    width: 37px;
+}
+
+#e_signature_artist .esa_midline {
+    height: 10px;
+
+    margin: 30px -15px 0px -15px;
+
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+
+
+#e_signature_artist .esa_sign_container {
+    margin-top: 30px;
+    text-align: left;
+}
+#e_signature_artist .esa_sign_container p {
+    font: normal normal bold 23px/29px SpoqaHanSans;
+    color: #333333;
+}
+
+#e_signature_artist .esa_sign_title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#e_signature_artist .esa_sign_title p {
+    font: normal normal bold 16px/24px SpoqaHanSans;
+    color: #333333;
+}
+#e_signature_artist .eas_refresh {
+    width: 17px;
+    height: 17px;
+}
+
+#e_signature_artist .esa_sign_wrapper {
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+}
+#e_signature_artist .esa_signature-pad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#e_signature_artist .esa_footer {
+	bottom: 0;
+    left: 0;
+    background: #8354C8 0% 0% no-repeat padding-box;
+	margin-bottom: 0px !important;
+	padding-bottom: calc(17px + env(safe-area-inset-bottom));
+    padding-bottom: calc(19px + constant(safe-area-inset-bottom));
+    box-shadow: none;
+}
+
+#e_signature_artist .esa_bank_container {
+    margin-top: 30px;
+}
+#e_signature_artist .esa_bank_name_title {
+    text-align: left;
+}
+#e_signature_artist .esa_bank_name_container {
+    margin-top: 15px;
+}
+#e_signature_artist .esa_bank_name_select_container {
+    width: 100%;
+    height: 40px;
+    margin-top: 6px;
+}
+#e_signature_artist .esa_bank_name_select {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid #DCE0EA;
+    border-radius: 2px;
+    font: normal normal normal 14px/40px SpoqaHanSans;
+    color: #333333;
+    background: url('/img/panel_v2/down.svg') no-repeat 98% 50% #fff; /*화살표 select박스 오른쪽 중앙 배치,배경 흰색*/
+    background-size: 7%;
+
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+
+
+}
+#e_signature_artist .esa_bank_number_container {
+    margin-top: 20px;
+}
+#e_signature_artist .esa_bank_number_title {
+    text-align: left;
+}
+#e_signature_artist .esa_bank_number_input_container {
+    width: 100%;
+    height: 40px;
+    margin-top: 6px;
+    display: flex;
+}
+#e_signature_artist .esa_bank_number_input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid #DCE0EA !important;
+    border-radius: 2px;
+    font: normal normal normal 14px/40px SpoqaHanSans;
+    color: #333333;
+}
+#e_signature_artist .esa_bank_user_container {
+    margin-top: 20px;
+}
+#e_signature_artist .esa_bank_user_title {
+    text-align: left;
+}
+#e_signature_artist .esa_bank_user_input_container {
+    width: 100%;
+    height: 40px;
+    margin-top: 6px;
+    display: flex;
+}
+#e_signature_artist .esa_bank_user_input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid #DCE0EA;
+    border-radius: 2px;
+    font: normal normal normal 14px/40px SpoqaHanSans;
+    color: #333333;
+}
+#e_signature_artist
+#e_signature_artist
+#e_signature_artist
+#e_signature_artist
+#e_signature_artist

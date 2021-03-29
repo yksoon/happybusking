@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+#account_change #account_change_header{
+	padding: 25px 15px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	border-top: 1px solid #f1eff1;
+}
+
+#account_change #account_chage_team_name{
+	text-decoration: none;
+	color: #8354c8;
+	font-weight: bold;
+}
+
+#account_change .account_change_body{
+	padding: 15px;
+    text-align: left;
+}
+
+#account_change #account_change_name{
+	padding-bottom: 25px;
+}
+
+#account_change #account_change_body_title{
+	width: 100%;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+#account_change .ui-body-inherit{
+	border: none;
+    border-bottom: 1px solid #eeeeee;
+    letter-spacing: -1px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+#account_change #account_name{
+	font-size: 14px;
+	letter-spacing: -1px;
+}
+
+#account_change #account_change_bank{
+	padding-bottom: 25px;
+}
+
+#account_change #account_change_acc{
+	padding-bottom: 25px;
+}
+
+#account_change #account_acc{
+	font-size: 15px;
+    letter-spacing: -1px;
+}
+
+#account_change #account_change_btn{
+	position: fixed;
+	bottom: 0;
+	font-weight: bold;
+	width: 100%;
+	font-size: 16px;
+	background-image: linear-gradient(to left, #8354c8 0%, #c750bf 100%);
+	color: #fff;
+	line-height: 3.4;
+}
+
+/* select box css */
+
+#account_change #account_bank-button{
+	background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 20px;
+    color: #a9a9a9;   
+    background: url(/img/common/showing_btn.png) no-repeat 95% 50%;
+    background-size: 4%;
+}
+
+#account_change #account_bank-button:AFTER {
+	display: none;
+}

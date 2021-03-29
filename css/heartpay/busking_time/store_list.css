@@ -1,0 +1,292 @@
+@charset "UTF-8";
+#store_list *{
+    letter-spacing:-0.5px;
+}
+
+#store_list #store_list_content {
+    padding: 0px 15px 0px 15px !important;
+}
+
+#store_list .store_list_header_menu_container {
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    width: 100%;
+    position: fixed;
+    height: 45px;
+    left: 0;
+    background-color: white;
+}
+#store_list .store_list_menu {
+    width: 25%;
+    height: 45px;
+    text-align: center;
+}
+#store_list .sl_header_tab {
+    font: normal normal normal 15px/45px SpoqaHanSans;
+    /* border-bottom: 3px solid #8354C8; */
+    height: 42px;
+    width: fit-content;
+    display: inline-block;
+}
+
+
+/* input check setting */
+#store_list input[type="checkbox"] {
+    display: none;
+    float: left;
+}
+#store_list input[type="checkbox"] + label {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(/img/busking_time/check_perfo.svg) no-repeat;
+    background-size: contain;
+}
+
+#store_list input[type="checkbox"]:checked + label {
+    background: transparent url(/img/reg_store/chk.png) no-repeat;
+    background-size: contain;
+}
+
+#store_list .common_terms_check {
+    padding: 20px 0px 0px 15px !important;
+    float: right;
+}
+#store_list .common_terms_check label {
+    text-align: left;
+    font-size: 13px !important;
+    color: #333;
+    padding-left: 0 !important;
+    margin: 0 !important;
+}
+
+#store_list .my_perform_chk_span {
+    font: normal normal normal 14px/16px SpoqaHanSans;
+    color: #7B7D88;
+    margin-left: 5px;
+}
+
+#store_list .sl_top_container {
+    margin-top: 55px;
+    width: 100%;
+    height: 38px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+#store_list .sl_tab_container {
+    height: 123px;
+    width: 100%;
+
+    margin-top: 0;
+
+    border-bottom: 1px solid #F2F4F8;
+    display: flex;
+}
+
+#store_list .sl_tab_container_left {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#store_list .sl_tab_container_img {
+    width: 88px;
+    height: 81px;
+    border-radius: 4px;
+}
+#store_list .sl_tab_container_right_left {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#store_list .sl_tab_container_right {
+    padding: 21px 4px 21px 11px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#store_list .sl_tab_title_container {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+#store_list .sl_recruitment_status {
+    padding: 0px 5px 0px 5px;
+    /* width: 37px; */
+    height: 18px;
+
+    /* border-radius: 1px;
+    background: #8354C8 0% 0% no-repeat padding-box; */
+
+    font: normal normal normal 10px/18px SpoqaHanSans;
+    /* color: #FFFFFF; */
+    text-align: center;
+    float: left;
+
+    border-radius: 50px;
+}
+#store_list .sl_store_name {
+    width: 120px;
+    text-align: left;
+    font: normal normal bold 15px/22px SpoqaHanSans;
+    color: #333333;
+
+    padding-left: 3px;
+
+    font-weight: 300;
+}
+
+#store_list .sl_addr {
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 12px/18px SpoqaHanSans;
+    color: #707070;
+    margin-top: 2px;
+}
+
+#store_list .sl_perform_team {
+    height: 18px;
+
+    text-align: left;
+    font: normal normal normal 12px/18px SpoqaHanSans;
+    color: #333333;
+}
+
+#store_list .sl_hashtag_container {
+    /* height: 15px; */
+    margin-top: 7px;
+    text-align: left;
+    font: normal normal normal 10px/15px SpoqaHanSans;
+    color: #707070;
+}
+#store_list .sl_hashtag {
+    text-align: left;
+    padding-right: 9px;
+    white-space: break-spaces;
+}
+
+
+#store_list .sl_tab_container_right_right {
+    display: flex;
+    align-items: center;
+    width: 50px; 
+}
+#store_list .sl_perform {
+    flex: auto;
+}
+#store_list .sl_perform_date {
+    font: normal normal bold 15px/22px SpoqaHanSans;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+#store_list .sl_perform_time {
+    font: normal normal bold 15px/22px SpoqaHanSans;
+    color: #8E8EAC;
+    letter-spacing: 0;
+}
+
+#store_list .sl_perform_reg_btn {
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    opacity: 1;
+    z-index: 1000;
+
+    width: 79px;
+    height: 66px;
+
+    background: none;
+    box-shadow: none;
+    border-radius: 7px;
+
+    text-align: center;
+    font: normal normal bold 16px/19px SpoqaHanSans;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#store_list .sl_perform_reg_btn_img {
+
+}
+
+#store_list .sl_header_second_menu_contant {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 100vw;
+    margin-top: 46px;
+    display: block;
+    margin-bottom: -45px;
+    margin-left: -15px;
+    border-bottom: 1px solid #EEEEEE;
+    position: fixed;
+    border-top: 1px solid #EEEEEE;
+}
+
+#store_list .nav_h_type li {
+    background-color: #FFFFFF;
+    border-bottom: none;
+}
+
+#store_list .month_on {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333 !important;
+}
+#store_list .genre_on {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333 !important;
+}
+#store_list #sl_area li, #store_list #sl_month li {
+    width: 80px;
+}
+
+#store_list .sl_down_arrow {
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+}
+
+#store_list .my_perform_sel {
+    width: 72px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D6D6D6;
+    border-radius: 2px;
+
+    /* text-decoration: underline; */
+    font: normal normal normal 13px/30px SpoqaHanSans;
+    color: #666;
+    margin-left: 6px;
+
+    position: unset;
+
+    padding-left: 5px;
+
+    background: url('/img/panel_v2/down.svg') no-repeat 98% 50% #fff; /*화살표 select박스 오른쪽 중앙 배치,배경 흰색*/
+    background-size: 25%;
+
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+}
+#store_list .sls_plz_search {
+    margin-top: 40px;
+    text-align: center;
+}
+#store_list .sls_plz_search p {
+    font: normal normal normal 15px/45px SpoqaHanSans;
+    color: #D5D5D5;
+}
