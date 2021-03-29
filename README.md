@@ -66,7 +66,25 @@ firebase를 이용하여 사용자에게 push알림 서비스
 
 ![전자계약서](https://user-images.githubusercontent.com/62881936/112794285-98a4be80-90a1-11eb-8e7e-79a30defd52b.jpg)  
 <b>(PDF 다운로드 가능)</b>
+<br/>
 
+```
+$.ajax({
+    type: "GET",
+    cache: false,
+    url: 'url',
+    data: {
+        data: data
+    },
+    contentType: "application/xml; charset=utf-8",
+    dataType: "xml",
+    timeout: 30000,
+    success: function (data) {
+      // success code
+    }
+});
+```
+<br/>
 
 ## 프로젝트 개선사항
 Firebase Storage 에서 사진 업로드 및 다운로드를 하다보니 이에 따른 딜레이 현상 발생.  
