@@ -1,0 +1,100 @@
+#manual_owner * {
+    letter-spacing: -0.25px !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+/* #manual_owner_content {
+    height: 1000px !important;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+} */
+
+/* 스크롤 이상현상 방지 */
+#manual_owner div[data-role=content]{
+    overflow: hidden !important;
+}
+#manual_owner div[data-role=content]:not(#index_content):not(#myinfoContent):not(#perform_request_detail):not(#thanks_people_sec):not(#buskingOathContent):not(#share_item_list_sec):not(#pbi_condition_sec){
+    margin-bottom: 0;
+}
+#manual_owner .ui-panel-wrapper {
+    position: unset;
+}
+
+#manual_owner ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    height: 55px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: fixed;
+    width: 100%;
+}
+
+#manual_owner ul.tabs li{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: normal normal normal 15px/28px SpoqaHanSans;
+    color: #9797A7;
+	cursor: pointer;
+    white-space:nowrap;
+    margin: 0 7px;
+    padding: 13px 0;
+}
+
+#manual_owner ul.tabs li.current{
+    display: inline-block;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	color: #333333;
+    font: normal normal bold 15px/28px SpoqaHanSans;
+    border-bottom: 3px solid #8354C8;
+}
+
+#manual_owner .tab-content{
+    display: none;
+	background: #e0e0e0;
+}
+
+#manual_owner .tab-content.current{
+	/* display: inherit; */
+    display: inline-block;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    width: 100%;
+    text-align: center;
+}
+
+#manual_owner .mo_number {
+    background: #8354C8 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    font: normal normal normal 15px/20px SpoqaHanSans;
+    color: #FFFFFF;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    display: inline-block;
+}
+#manual_owner .mo_notice {
+    margin-top: 7px;
+}
+#manual_owner .mo_title p {
+    text-align: center;
+    font: normal normal bold 18px/27px SpoqaHanSans;
+    color: #333333;
+}
+#manual_owner .mo_subtitle p {
+    text-align: center;
+    font: normal normal normal 14px/25px SpoqaHanSans;
+    color: #595959;
+}
+#manual_owner .mo_word_container {
+    margin-top: 45px;
+}
+#manual_owner .mo_img_div {
+    margin-top: 20px;
+}
+#manual_owner .mo_img {
+    width: 275px;
+    height: 471px;
+    opacity: 1;
+    -webkit-tap-highlight-color:transparent;
+}

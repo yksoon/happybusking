@@ -796,7 +796,28 @@
 					카페&버스킹존 수정
 					<%
 						}	
-					%>    
+					%>
+                    <%
+						if(pm.equals("manual_owner.jsp")){
+					%>
+					사업주 이용방법
+					<%
+						}	
+					%>
+                    <%
+						if(pm.equals("manual_artist.jsp")){
+					%>
+					아티스트 이용방법
+					<%
+						}	
+					%>
+                    <%
+						if(pm.equals("manual_info.jsp")){
+					%>
+					이용방법
+					<%
+						}	
+					%>					
 				</p>
 			</div>
 		</div>
@@ -816,7 +837,7 @@
 				if (!(pm.equals("login.jsp") || pm.equals("kakaotest.jsp") || pm.equals("busking_time_reg.jsp") || pm.equals("busking_time_reg_all.jsp") || pm.equals("busking_time_reg_each.jsp") || pm.equals("register_store.jsp")
                 || pm.equals("busking_time_contract_list.jsp") || pm.equals("busking_time_apply_detail.jsp") || pm.equals("store_list.jsp") || pm.equals("register_store_update.jsp")|| pm.equals("e_sign_complete_art.jsp")|| pm.equals("e_sign_complete_owner.jsp")
                 || pm.equals("application_perform_complete.jsp") || pm.equals("complete_accept_busking.jsp") || pm.equals("complete_cancel_busking.jsp") || pm.equals("complete_reject_busking.jsp") || pm.equals("complete_reg_busking_time.jsp") || pm.equals("complete_end_busking.jsp")
-                || pm.equals("e_signature_artist.jsp") || pm.equals("e_signature.jsp") || pm.equals("view_contract.jsp") || pm.equals("main_store_update.jsp"))) {
+                || pm.equals("e_signature_artist.jsp") || pm.equals("e_signature.jsp") || pm.equals("view_contract.jsp") || pm.equals("main_store_update.jsp") || pm.equals("manual_owner.jsp") || pm.equals("manual_artist.jsp") || pm.equals("manual_info.jsp"))) {
 				%>
                 <a id="header_panel_btn" href="#panel" data-transition="none">
                     <img class="common_header_panelbtn" src="/img/index_main/h_menu.svg">
@@ -830,7 +851,7 @@
                 if (pm.equals("busking_time_reg.jsp") || pm.equals("busking_time_reg_all.jsp") || pm.equals("busking_time_reg_each.jsp") || pm.equals("register_store.jsp") || pm.equals("busking_time_contract_list.jsp")
                 || pm.equals("busking_time_apply_detail.jsp") || pm.equals("register_store_update.jsp") || pm.equals("e_sign_complete_art.jsp") || pm.equals("e_sign_complete_owner.jsp") || pm.equals("application_perform_complete.jsp")
                 || pm.equals("complete_accept_busking.jsp") || pm.equals("complete_cancel_busking.jsp") || pm.equals("complete_reject_busking.jsp") || pm.equals("complete_reg_busking_time.jsp") || pm.equals("complete_end_busking.jsp")
-                || pm.equals("e_signature_artist.jsp") || pm.equals("e_signature.jsp") || pm.equals("view_contract.jsp") || pm.equals("main_store_update.jsp")) {
+                || pm.equals("e_signature_artist.jsp") || pm.equals("e_signature.jsp") || pm.equals("view_contract.jsp") || pm.equals("main_store_update.jsp") || pm.equals("manual_owner.jsp") || pm.equals("manual_artist.jsp")) {
                 %>
                 <a onclick = "toHome();" data-transition="none">
                     <img class="common_header_homebtn" src="/img/index_main/h_close.svg">

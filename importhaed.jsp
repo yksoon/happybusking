@@ -97,7 +97,7 @@
 	  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-storage.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.7/cropper.min.js"></script>
 		
-        <link type="text/css" rel="stylesheet" href="/css/heartpay/index/index.css?ver=1.5.7" />
+        <link type="text/css" rel="stylesheet" href="/css/heartpay/index/index.css?ver=1.5.9" />
         <link type="text/css" rel="stylesheet" href="/css/heartpay/common/common.css?ver=1.1.7" />
         <link type="text/css" rel="stylesheet" href="/css/heartpay/team/team.css?ver=1.0.7" />
         <link type="text/css" rel="stylesheet" href="/css/heartpay/team/team_create.css?ver=1.0.2" />
@@ -210,6 +210,10 @@
 		<!-- 공연 신청 CSS -->
 		<link type="text/css" rel="stylesheet" href="/css/heartpay/detail_store/application_perform_complete.css?ver=1.0.1" />
 
+		<!-- 앱 매뉴얼 CSS -->
+		<link type="text/css" rel="stylesheet" href="/css/heartpay/app_manual/manual_info.css?ver=1.0.0" />
+		<link type="text/css" rel="stylesheet" href="/css/heartpay/app_manual/manual_owner.css?ver=1.0.2" />
+		<link type="text/css" rel="stylesheet" href="/css/heartpay/app_manual/manual_artist.css?ver=1.0.4" />
 
         <%-- 홍보 페이지 --%>
         <link type="text/css" rel="stylesheet" href="/css/heartpay/reg_store/promotion_set.css?ver=1.1.0" />
@@ -254,7 +258,7 @@
 		
 		<!-- Page JS File -->
 		<script type="text/javascript" src="/js/firebase.js?ver=1.2.4" ></script>
-		<script type="text/javascript" src="/js/index.js?ver=1.6.9" ></script>
+		<script type="text/javascript" src="/js/index.js?ver=1.7.1" ></script>
 		<script type="text/javascript" src="/js/base.js?ver=1.9.0" ></script>
 		<script type="text/javascript" src="/js/jquery.form.min.js?ver=1.0.1" ></script>
         
@@ -424,7 +428,11 @@
         <!-- 공연 신청 JS -->
         <script type="text/javascript" src="/js/heartpay/detail_store/artist_busking_select.js?ver=1.1.4" ></script>
         <script type="text/javascript" src="/js/heartpay/detail_store/artist_busking_select_func.js?ver=1.1.3" ></script>
-        
+
+		<!-- 앱 매뉴얼 -->
+        <script type="text/javascript" src="/js/heartpay/app_manual/manual_info.js?ver=1.0.0" ></script>
+		<script type="text/javascript" src="/js/heartpay/app_manual/manual_owner.js?ver=1.0.2" ></script>
+		<script type="text/javascript" src="/js/heartpay/app_manual/manual_artist.js?ver=1.0.4" ></script>
     
         <%-- 상업공간등록 관련 JavaScript --%>
         <script type="text/javascript" src="/js/heartpay/reg_store/register_store_func.js?ver=1.4.8"></script>
@@ -434,7 +442,4 @@
 
         <%-- 상업공간 상세 JS --%>
         <script type="text/javascript" src="/js/heartpay/detail_store/detail_store.js?ver=1.3.9"></script>
-        <%-- 모바일메뉴얼 와꾸 --%>
-        <link type="text/css" rel="stylesheet" href="/css/manual/manual_m.css?ver=1.0.0" />
-        <script type="text/javascript" src="/js/manual/manual_m.js?ver=1.0.3"></script>
 	</head> 		
