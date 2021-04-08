@@ -831,6 +831,12 @@ const store_resizeSave = (path) => {
 
                     $('#bi-main_sp' + sp_num).attr('src', value);
                     $('#fname_sp' + sp_num).val(filename);
+                    if($('#fname_sp_new').val() == ''){
+                        $('#fname_sp_new').val(filename);
+                    }
+                    else{
+                        $('#fname_sp_new').val($('#fname_sp_new').val() + ',' +filename);
+                    }
                     if (sp_num == '1') {
                         $('#bi-main_sp' + sp_num).css("visibility", "visible");
                     }
@@ -843,6 +849,12 @@ const store_resizeSave = (path) => {
 
                     $('#bi-main_st' + st_num).attr('src', value);
                     $('#fname_st' + st_num).val(filename);
+                    if($('#fname_st_new').val() == ''){
+                        $('#fname_st_new').val(filename);
+                    }
+                    else{
+                        $('#fname_st_new').val($('#fname_st_new').val() + ',' +filename);
+                    }
                     if (st_num == '1') {
                         $('#bi-main_st' + st_num).css("visibility", "visible");
                     }
